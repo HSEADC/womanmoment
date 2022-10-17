@@ -84,7 +84,7 @@ module.exports = {
       chunks: ['index']
     }),
 
-    // Internal pages
+    //Internal pages
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
@@ -92,7 +92,49 @@ module.exports = {
       filename: './pages/page.html',
       chunks: ['page']
     }),
-
+    //Наши странички все c главного экрана
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/about.html',
+      filename: './about.html',
+      chunks: ['page']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/help.html',
+      filename: './help.html',
+      chunks: ['page']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/guide.html',
+      filename: './guide.html',
+      chunks: ['page']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/articles.html',
+      filename: './articles.html',
+      chunks: ['page']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/art.html',
+      filename: './art.html',
+      chunks: ['page']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/resources.html',
+      filename: './resources.html',
+      chunks: ['page']
+    }),
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
