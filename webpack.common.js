@@ -135,6 +135,49 @@ module.exports = {
       filename: './resources.html',
       chunks: ['page']
     }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/emails.html',
+      filename: './emails.html',
+      chunks: ['page']
+    }),
+    //Отдельные статьи и тд
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/artpieces/artpiece1.html',
+      filename: './artpieces/artpiece1.html',
+      chunks: ['page']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/artpieces/artpiece2.html',
+      filename: './artpieces/artpiece2.html',
+      chunks: ['page']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/articles/article1.html',
+      filename: './articles/article1.html',
+      chunks: ['page']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/articles/article2.html',
+      filename: './articles/article2.html',
+      chunks: ['page']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/resources/book.html',
+      filename: './resources/book.html',
+      chunks: ['page']
+    }),
     // Partials
     new HtmlWebpackPartialsPlugin([
       {

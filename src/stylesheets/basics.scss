@@ -5,33 +5,13 @@
 html,
 body {
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 body {
   font-family: 'PT Root UI', Helvetica, Arial, sans-serif;
   font-weight: 400;
-}
-
-.images {
-  display: flex;
-
-  * {
-    width: 24px;
-    height: 24px;
-    margin: 0 10px;
-  }
-
-  .image {
-    &#bgPNG {
-      background-image: url('images/image.png');
-    }
-
-    &#bgJPG {
-      background-image: url('images/image.jpg');
-    }
-
-    &#bgSVG {
-      background-image: url('images/image.svg');
-    }
-  }
 }
