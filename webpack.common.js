@@ -131,15 +131,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/resources.html',
-      filename: './resources.html'
-      // chunks: ['page']
-    }),
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/emails.html',
-      filename: './emails.html'
+      template: './src/materials.html',
+      filename: './materials.html'
       // chunks: ['page']
     }),
     //Отдельные статьи и тд
