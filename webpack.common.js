@@ -8,8 +8,8 @@ const path = require('path')
 
 module.exports = {
   entry: {
-    index: './src/index.js',
-    page: './src/page.jsx'
+    index: './src/index.js'
+    // page: './src/page.jsx'
   },
   output: {
     filename: '[name].js',
@@ -85,98 +85,91 @@ module.exports = {
     }),
 
     //Internal pages
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/pages/page.html',
-      filename: './pages/page.html',
-      chunks: ['page']
-    }),
+    // new HtmlWebpackPlugin({
+    //   hash: true,
+    //   scriptLoading: 'blocking',
+    //   template: './src/pages/page.html',
+    //   filename: './pages/page.html',
+    //   chunks: ['page']
+    // }),
     //Наши странички все c главного экрана
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
       template: './src/about.html',
-      filename: './about.html',
-      chunks: ['page']
+      filename: './about.html'
+      // chunks: ['page']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
       template: './src/help.html',
-      filename: './help.html',
-      chunks: ['page']
+      filename: './help.html'
+      // chunks: ['page']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
       template: './src/guide.html',
-      filename: './guide.html',
-      chunks: ['page']
+      filename: './guide.html'
+      // chunks: ['page']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
       template: './src/articles.html',
-      filename: './articles.html',
-      chunks: ['page']
+      filename: './articles.html'
+      // chunks: ['page']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
       template: './src/art.html',
-      filename: './art.html',
-      chunks: ['page']
+      filename: './art.html'
+      // chunks: ['page']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/resources.html',
-      filename: './resources.html',
-      chunks: ['page']
-    }),
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/emails.html',
-      filename: './emails.html',
-      chunks: ['page']
+      template: './src/materials.html',
+      filename: './materials.html'
+      // chunks: ['page']
     }),
     //Отдельные статьи и тд
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
       template: './src/artpieces/artpiece1.html',
-      filename: './artpieces/artpiece1.html',
-      chunks: ['page']
+      filename: './artpieces/artpiece1.html'
+      // chunks: ['page']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
       template: './src/artpieces/artpiece2.html',
-      filename: './artpieces/artpiece2.html',
-      chunks: ['page']
+      filename: './artpieces/artpiece2.html'
+      // chunks: ['page']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
       template: './src/articles/article1.html',
-      filename: './articles/article1.html',
-      chunks: ['page']
+      filename: './articles/article1.html'
+      // chunks: ['page']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
       template: './src/articles/article2.html',
-      filename: './articles/article2.html',
-      chunks: ['page']
+      filename: './articles/article2.html'
+      // chunks: ['page']
     }),
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
       template: './src/resources/book.html',
-      filename: './resources/book.html',
-      chunks: ['page']
+      filename: './resources/book.html'
+      // chunks: ['page']
     }),
     // Partials
     new HtmlWebpackPartialsPlugin([
