@@ -1,6 +1,66 @@
 body.artpiece {
+  position: relative;
+  height: 120vh;
   h2,
   h3 {
     position: relative;
+  }
+  h3 {
+    margin-bottom: 4.5vh;
+  }
+  .backbutton {
+    position: fixed;
+    margin: 1.6vw;
+    z-index: 2;
+  }
+  .artpiecesbox {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 96vw;
+    height: 75vh;
+    margin: 5vw;
+    margin-top: 10vw;
+  }
+  .artpicture {
+    background-image: url('./images/performance1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 41vw;
+    height: 42.33vw;
+    border: 0.2vw solid #a54bff;
+  }
+  .arttext {
+    position: relative;
+    width: 45vw;
+    margin-left: 5vw;
+  }
+  .bubble1 {
+    display: inline-block;
+    padding: 0.4vw 0.4vw;
+    padding: 0.05vw;
+    margin: 0.25vw;
+    text-align: center;
+    background-color: #e9d3ff;
+    border: 0.2vw solid #a54bff;
+    border-radius: 3vw;
+    z-index: 1;
+  }
+  .tagflex {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vw;
+  }
+  .b1 {
+    width: 16vw;
+  }
+  .b2 {
+    width: 13vw;
+  }
+  .b3 {
+    width: 9vw;
   }
 }
