@@ -1,3 +1,180 @@
 body.about {
-  background-color: pink;
+  // height: 200vh;
+  width: 100vw;
+  p {
+    color: black;
+  }
+  .menubar {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border-bottom: solid #e9d3ff 0.3vh;
+    justify-content: flex-start;
+  }
+  .justmenu {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+    padding-bottom: 2vh;
+    padding-left: 2vw;
+    padding-right: 12vw;
+  }
+  .logo {
+    position: relative;
+    font-size: 3.1vw;
+    font-weight: 700;
+    margin-top: 4vh;
+    margin-bottom: 1vh;
+    padding-bottom: 2vh;
+  }
+  .menutext {
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+  }
+  .txtabout {
+    position: relative;
+    display: block;
+    width: 65vw;
+    margin: auto auto;
+    margin-top: 10vh;
+  }
+  .onas {
+    margin-bottom: 5vh;
+  }
+  .smicons {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 24vw;
+    margin-top: 3vh;
+  }
+  .icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 7vw;
+    height: 12vh;
+  }
+  .telegram {
+    background-image: url('./images/telegram.svg');
+  }
+  .vk {
+    background-image: url('./images/vk.svg');
+  }
+  .inst {
+    background-image: url('./images/inst.svg');
+  }
+  .wesm {
+    margin-top: 7vh;
+  }
+  .contacts {
+    position: relative;
+    display: block;
+    width: 85vw;
+    height: 60vw;
+    margin: auto auto;
+    margin-top: 6vh;
+  }
+  .contacth2 {
+    margin-left: 10vw;
+  }
+  .eachperson {
+    position: absolute;
+    width: 30vw;
+    height: 36vw;
+  }
+  .circle {
+    position: absolute;
+    background-image: url('./images/circle.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 16.7vw;
+    height: 16.7vw;
+    top: 3vw;
+    left: 4vw;
+  }
+  .person {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .contactstext {
+    position: absolute;
+  }
+  .cursor {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 6vw;
+    height: 4vw;
+  }
+  .e1 {
+    top: 7vw;
+    left: 5vw;
+  }
+  .e2 {
+    top: 20vw;
+    left: 28vw;
+  }
+  .e3 {
+    top: 5vw;
+    left: 51vw;
+  }
+  .c1 {
+    background-image: url('./images/cursor masha.svg');
+    bottom: 13vw;
+  }
+  .c2 {
+    background-image: url('./images/cursor katya.svg');
+    bottom: 10vw;
+    left: 10vw;
+  }
+  .c3 {
+    background-image: url('./images/cursor viola.svg');
+    bottom: 12vw;
+    left: 19vw;
+  }
+  .p1 {
+    background-image: url('./images/masha.png');
+    width: 15vw;
+    height: 18.6vw;
+    top: -1.6vw;
+    left: -1.25vw;
+  }
+  .p2 {
+    background-image: url('./images/katya.png');
+    width: 18vw;
+    height: 18.6vw;
+    top: -1.44vw;
+    left: -0.8vw;
+  }
+  .p3 {
+    background-image: url('./images/viola.png');
+    width: 15.08vw;
+    height: 18.6vw;
+    top: -1.28vw;
+    left: 1.52vw;
+  }
+  .t1 {
+    bottom: 7vw;
+  }
+  .t2 {
+    bottom: 4vw;
+  }
+  .t3 {
+    bottom: 5vw;
+    left: 9vw;
+  }
+  .blur1 {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('./images/blur1.png');
+    width: 85vw;
+    height: 60vw;
+  }
 }

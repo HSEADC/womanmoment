@@ -1,12 +1,5 @@
 body.index {
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
-  & > div,
-  & > a {
-    // margin: 10px 0;
-  }
+  height: 185vw;
   h1 {
     position: relative;
     font-weight: 700;
@@ -36,9 +29,11 @@ body.index {
     position: relative;
     display: inline-block;
     font-size: 3.1vw;
+    line-height: 3.4vw;
     font-weight: 400;
     z-index: 2;
     margin-top: 0.1vw;
+    color: black;
   }
   .bubble1 {
     padding: 0.4vw 0.4vw;
@@ -60,9 +55,9 @@ body.index {
     z-index: 1;
   }
   .section2 {
-    margin-top: 20vh;
     position: relative;
     display: block;
+    height: 90vh;
   }
   .splashtext2 {
     position: absolute;
@@ -70,5 +65,130 @@ body.index {
     left: auto;
     right: auto;
     width: 100%;
+    top: 27vw;
+  }
+  .blur2 {
+    position: absolute;
+    background-image: url('./images/blur2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80vw;
+    height: 40vw;
+    top: 12vw;
+    left: 15vw;
+  }
+  .comment {
+    position: absolute;
+    width: 29vw;
+    height: 7.5vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .comtxt1 {
+    position: absolute;
+    font-size: 1.3vw;
+    font-weight: 500;
+    top: 0.9vw;
+    left: 6vw;
+  }
+  .comtxt2 {
+    position: absolute;
+    font-size: 1vw;
+    line-height: 1vw;
+    font-weight: 400;
+    top: 2.9vw;
+    left: 6vw;
+    width: 19vw;
+  }
+  .b1 {
+    background-image: url('./images/Mcomment.svg');
+    top: 20vw;
+    left: 1vw;
+  }
+  .b2 {
+    background-image: url('./images/Ecomment.svg');
+    top: 17vw;
+    left: 34vw;
+  }
+  .b3 {
+    background-image: url('./images/Vcomment.svg');
+    top: 20vw;
+    right: 1vw;
+  }
+  .b4 {
+    background-image: url('./images/Ecomment.svg');
+    top: 33vw;
+    left: 2vw;
+  }
+  .b5 {
+    background-image: url('./images/Mcomment.svg');
+    top: 40vw;
+    right: 33vw;
+  }
+  .b6 {
+    background-image: url('./images/Ecomment.svg');
+    top: 35vw;
+    right: 0vw;
+  }
+  .w {
+    color: white;
+  }
+  .for {
+    position: relative;
+    margin-left: 30vw;
+  }
+  .section3 {
+    position: relative;
+    // margin-top: 10vw;
+  }
+  .section4 {
+    position: relative;
+    margin-top: 10vw;
+    margin-left: 1.6vw;
+  }
+  .eh {
+    text-align: left;
+  }
+  .forwho {
+    position: absolute;
+    background-image: url('./images/forwho.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 22vw;
+    top: -4vw;
+  }
+  .form {
+    position: relative;
+    margin: 10vw 30vw;
+  }
+  .input {
+    width: 35vw;
+    height: 4vw;
+    border: 0.2vw solid #a54bff;
+    border-radius: 2vw;
+    font-size: 2vw;
+    padding: 1vw;
+    font-family: 'Gilroy';
+    color: #a54bff;
+  }
+  #my-form-button {
+    position: relative;
+    right: 3.7vw;
+    top: 0.75vw;
+    background-color: #a54bff;
+    background-image: url('./images/tick.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 3vw;
+    height: 3vw;
+    border: none;
+    border-radius: 2vw;
+    text-decoration: none;
+  }
+  #my-form-button:hover {
+    background-color: #8235ce;
+    cursor: pointer;
   }
 }

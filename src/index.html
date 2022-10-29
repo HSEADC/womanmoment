@@ -28,22 +28,101 @@
         <p class="splashtext">потрясающих женщин.</p>
       </div>
       <div class="section2">
+        <div class="blur2"></div>
         <h2 class="splashtext2">
           Мы рассказываем <br />
           про феминизм
         </h2>
+        <div class="comment b1">
+          <p class="comtxt1">Маша Ванурина</p>
+          <p class="comtxt2">
+            Я хочу, чтобы о феминизме знали как&nbsp;можно больше людей
+          </p>
+        </div>
+        <div class="comment b2">
+          <p class="comtxt1 w">Екатерина Кондратова</p>
+          <p class="comtxt2 w">
+            Люблю слушать грамотные дискуссии между феминистками разных течений
+          </p>
+        </div>
+        <div class="comment b3">
+          <p class="comtxt1">Виола Браунс</p>
+          <p class="comtxt2">
+            В наши дни грамотность в вопросах феминизма бывает низка
+          </p>
+        </div>
+        <div class="comment b4">
+          <p class="comtxt1 w">Екатерина Кодратова</p>
+          <p class="comtxt2 w">
+            Хочу, чтобы как можно больше людей увидели арт-феминизм
+          </p>
+        </div>
+        <div class="comment b5">
+          <p class="comtxt1">Маша Ванурина</p>
+          <p class="comtxt2">А еще женщины крутые</p>
+        </div>
+        <div class="comment b6">
+          <p class="comtxt1 w">Екатерина Кондратова</p>
+          <p class="comtxt2 w">
+            Так много интересного можно узнать из&nbspвидео Подруг
+          </p>
+        </div>
       </div>
     </div>
-    <!-- <form action="https://formspree.io/f/xknevgwj" method="POST">
-      <label>
-        Your email:
-        <input type="email" name="email" />
-      </label>
-      <label>
-        Your message:
-        <textarea name="message"></textarea>
-      </label>
-      <button type="submit">Send</button>
-    </form> -->
+    <div class="section3">
+      <div class="forwho"></div>
+      <p class="splashtext for">Для<div class="splashtext bubble1">женщин</div></p>
+      <p class="splashtext for">Для <div class="splashtext bubble1">всех интересующихся</div></p>
+      <p class="splashtext for">Для <div class="splashtext bubble1">начинающих свой путь в феминизме</div></p>
+      <p class="splashtext for">Для <div class="splashtext bubble1">продвинутых феминисток</div></p>
+    </div>
+    <div class="section4">
+      <h2 class="eh">Узнайте о запуске первыми</h2>
+      <p class="splashtext">Поддержите наш проект!</p>
+      <p class="splashtext bubble1">Оставьте свой email,</p>
+      <p class="splashtext">чтобы не пропустить главный</p>
+      <p class="splashtext bubble2">Вумен Момент</p>
+      <p class="splashtext">этого года</p>
+<div class="form">
+<form id="my-form" action="https://formspree.io/f/xknevgwj" method="POST">
+  <!-- <label>Email</label> -->
+  <input type="email" name="email" placeholder="Хочу узнать о запуске" class="input"/>
+  <button id="my-form-button"></button>
+  <!-- <p id="my-form-status"></p> -->
+</form>
+<script>
+    var form = document.getElementById("my-form");
+
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        if (response.ok) {
+          status.innerHTML = "Thanks for your submission!";
+          form.reset()
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+            } else {
+              status.innerHTML = "Oops! There was a problem submitting your form"
+            }
+          })
+        }
+      }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form"
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>
+</div>
+</div>
   </body>
 </html>
