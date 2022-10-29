@@ -1,6 +1,6 @@
 body.artpiece {
   position: relative;
-  height: 120vh;
+  height: 70vw;
   h2,
   h3 {
     position: relative;
@@ -9,9 +9,11 @@ body.artpiece {
     margin-bottom: 4.5vh;
   }
   .backbutton {
-    position: fixed;
-    margin: 1.6vw;
+    position: absolute;
+    top: 9.5vw;
+    left: 3vw;
     z-index: 2;
+    width: 3vw;
   }
   .artpiecesbox {
     position: absolute;
@@ -20,8 +22,8 @@ body.artpiece {
     justify-content: flex-start;
     width: 96vw;
     height: 75vh;
-    margin: 5vw;
-    margin-top: 10vw;
+    margin: 3vw;
+    margin-top: 8vw;
   }
   .artpicture {
     background-image: url('./images/performance1.jpg');

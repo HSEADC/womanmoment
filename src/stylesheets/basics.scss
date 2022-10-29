@@ -23,6 +23,10 @@ a {
   text-decoration: none;
   color: #a54bff;
 }
+a:hover {
+  color: #e9d3ff;
+  cursor: pointer;
+}
 h2 {
   font-weight: 600;
   font-size: 5vw;
@@ -32,4 +36,42 @@ h3 {
   font-weight: 600;
   font-size: 3.1vw;
   color: #a54bff;
+}
+.menubar {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  border-bottom: solid #e9d3ff 0.3vh;
+  justify-content: flex-start;
+}
+.justmenu {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5vh;
+  margin-bottom: 1vh;
+  padding-bottom: 2vh;
+  padding-left: 2vw;
+  padding-right: 12vw;
+}
+.logo {
+  position: relative;
+  font-size: 3.1vw;
+  font-weight: 700;
+  margin-top: 4vh;
+  margin-bottom: 1vh;
+  padding-bottom: 2vh;
+}
+.logo:hover {
+  color: #e9d3ff;
+  cursor: pointer;
+}
+.menutext {
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+}
+.menutext:hover {
+  color: #e9d3ff;
+  cursor: pointer;
 }
