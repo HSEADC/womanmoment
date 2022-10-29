@@ -1,5 +1,5 @@
 body.index {
-  height: 200vh;
+  height: 185vw;
   h1 {
     position: relative;
     font-weight: 700;
@@ -29,6 +29,7 @@ body.index {
     position: relative;
     display: inline-block;
     font-size: 3.1vw;
+    line-height: 3.4vw;
     font-weight: 400;
     z-index: 2;
     margin-top: 0.1vw;
@@ -56,7 +57,7 @@ body.index {
   .section2 {
     position: relative;
     display: block;
-    height: 93vh;
+    height: 90vh;
   }
   .splashtext2 {
     position: absolute;
@@ -131,5 +132,63 @@ body.index {
   }
   .w {
     color: white;
+  }
+  .for {
+    position: relative;
+    margin-left: 30vw;
+  }
+  .section3 {
+    position: relative;
+    // margin-top: 10vw;
+  }
+  .section4 {
+    position: relative;
+    margin-top: 10vw;
+    margin-left: 1.6vw;
+  }
+  .eh {
+    text-align: left;
+  }
+  .forwho {
+    position: absolute;
+    background-image: url('./images/forwho.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 22vw;
+    top: -4vw;
+  }
+  .form {
+    position: relative;
+    margin: 10vw 30vw;
+  }
+  .input {
+    width: 35vw;
+    height: 4vw;
+    border: 0.2vw solid #a54bff;
+    border-radius: 2vw;
+    font-size: 2vw;
+    padding: 1vw;
+    font-family: 'Gilroy';
+    color: #a54bff;
+  }
+  #my-form-button {
+    position: relative;
+    right: 3.7vw;
+    top: 0.75vw;
+    background-color: #a54bff;
+    background-image: url('./images/tick.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 3vw;
+    height: 3vw;
+    border: none;
+    border-radius: 2vw;
+    text-decoration: none;
+  }
+  #my-form-button:hover {
+    background-color: #8235ce;
+    cursor: pointer;
   }
 }
