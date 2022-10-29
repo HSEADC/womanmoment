@@ -1,10 +1,12 @@
 body.index {
-  height: 185vw;
+  height: 160vw;
   h1 {
     position: relative;
     font-weight: 700;
     color: #a54bff;
     font-size: 13.75vw;
+    margin-bottom: 6vw;
+    margin-top: 6vw;
   }
   h2 {
     position: relative;
@@ -17,7 +19,7 @@ body.index {
     position: relative;
     flex-direction: column;
     display: flex;
-    margin: 9vw 1.6vw;
+    margin: 6vw 1.6vw;
   }
   .splashtextinnerbox {
     margin-top: 1vw;
@@ -57,7 +59,7 @@ body.index {
   .section2 {
     position: relative;
     display: block;
-    height: 90vh;
+    height: 60vw;
   }
   .splashtext2 {
     position: absolute;
@@ -148,6 +150,7 @@ body.index {
   }
   .eh {
     text-align: left;
+    margin-bottom: 1.5vw;
   }
   .forwho {
     position: absolute;
@@ -173,9 +176,9 @@ body.index {
     color: #a54bff;
   }
   #my-form-button {
-    position: relative;
-    right: 3.7vw;
-    top: 0.75vw;
+    position: absolute;
+    right: 3.9vw;
+    top: 0.5vw;
     background-color: #a54bff;
     background-image: url('./images/tick.svg');
     background-size: contain;
@@ -190,5 +193,16 @@ body.index {
   #my-form-button:hover {
     background-color: #8235ce;
     cursor: pointer;
+  }
+  .blur3 {
+    position: absolute;
+    background-image: url('./images/blur3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 58vw;
+    height: 25vw;
+    top: -10vw;
+    left: -12vw;
+    z-index: -1;
   }
 }
