@@ -68,4 +68,15 @@ body.artpiece {
   .b3 {
     width: 9vw;
   }
+  .blur4 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('./images/blur4.png');
+    width: 48vw;
+    height: 28vw;
+    top: -9vw;
+    left: -6vw;
+    z-index: -1;
+  }
 }
