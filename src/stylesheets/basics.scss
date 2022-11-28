@@ -12,25 +12,27 @@ body {
 }
 
 body {
-  font-family: 'Gilroy', Helvetica, Arial, sans-serif;
-  font-weight: 500;
+  font-family: 'helvetica', Helvetica, Arial, sans-serif;
 }
 p,
 a {
-  font-size: 1.7vw;
+  font-size: 24px;
   font-weight: 400;
-  line-height: 2vw;
   text-decoration: none;
-  color: #a54bff;
+  color: #0c0c0c;
+}
+p {
+  line-height: 28px;
 }
 a:hover {
   color: #e9d3ff;
   cursor: pointer;
 }
 h2 {
-  font-weight: 600;
-  font-size: 5vw;
-  color: #a54bff;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 68px;
+  color: #0c0c0c;
 }
 h3 {
   font-weight: 600;
