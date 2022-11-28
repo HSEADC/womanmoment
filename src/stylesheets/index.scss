@@ -20,6 +20,9 @@ body.index {
     top: 160px;
     left: 4vw;
   }
+  // h2 {
+  //   text-align: center;
+  // }
   section {
     position: relative;
     display: block;
@@ -37,15 +40,12 @@ body.index {
     width: 100%;
     height: 100%;
     z-index: 1;
-    img {
-      mix-blend-mode: color-burn;
-    }
   }
   .main1 {
     margin-top: 2vw;
     height: 720px;
     background-color: #f4b5c1;
-    background-position: right 0px top 30px;
+    background-position: right 0px top -30px;
   }
   .main2 {
     height: 1340px;

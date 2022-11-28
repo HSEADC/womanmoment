@@ -11,4 +11,5 @@
 @import 'stylesheets/resources.scss';
 @import 'stylesheets/article.scss';
 @import 'stylesheets/artpiece.scss';
-@import 'stylesheets/book.scss'
+@import 'stylesheets/responsive.scss';
+@import 'stylesheets/book.scss';
