@@ -140,6 +140,9 @@ body.index {
     align-items: center;
     gap: 12px;
   }
+  .tagsflexinline {
+    display: flex;
+  }
   .bubble {
     position: relative;
     display: inline-flex;
