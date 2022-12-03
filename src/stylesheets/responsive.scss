@@ -276,19 +276,22 @@
     }
     #drawing4
     {
-
+      top: 471px;
+      left: 196px;
     }
     #drawing1
     {
-
+      left: -19px;
     }
     #drawing2
     {
-
+      left: 926px;
+      top: -39px;
     }
     #drawing3
     {
-
+      left: 821px;
+      top: 484px;
     }
     .input,
     p {
@@ -405,9 +408,35 @@
   body.index {
     height: 3530px;
     h1 {
-      font-size: 180px;
-      line-height: 150px;
-      top: 140px;
+      font-size: 160px;
+      line-height: 135px;
+      top: 85px;
+    }
+    .slogan
+    {
+      top: 137px;
+      font-size: 18px;
+    }
+    #drawing1
+    {
+      width: 209px;
+      top: 2px;
+    }
+    #drawing2
+    {
+      left: 744px;
+      width: 211px;
+    }
+    #drawing3
+    {
+      left: 663px;
+      top: 414px;
+      width: 240px;
+    }
+    #drawing4
+    {
+      top: 392px;
+      left: 126px;
     }
     h2 {
       font-size: 44px;
@@ -533,9 +562,37 @@
   body.index {
     height: 3233px;
     h1 {
-      font-size: 140px;
-      line-height: 115px;
-      top: 140px;
+      font-size: 115px;
+      line-height: 90px;
+      top: 76px;
+    }
+    .slogan
+    {
+      font-size: 16px;
+      top: 120px;
+    }
+    #drawing1
+    {
+      width: 165px;
+      top: 0px;
+      left: -22px;
+    }
+    #drawing2
+    {
+      left: 513px;
+      top: -25px;
+      width: 182px;
+    }
+    #drawing3
+    {
+      left: 498px;
+      top: 332px;
+      width: 156px;
+    }
+    #drawing4
+    {
+      top: 299px;
+      left: 75px;
     }
     h2 {
       font-size: 36px;
@@ -670,9 +727,41 @@
   body.index {
     height: 2670px;
     h1 {
-      font-size: 75px;
+      font-size: 64px;
       line-height: 60px;
-      top: 140px;
+      top: 104px;
+    }
+    .slogan
+    {
+      top: 129px;
+      font-size: 14px;
+      width: 227px;
+    }
+    #drawing1
+    {
+      width: 82px;
+      top: 267px;
+      left: 28px;
+      transform: rotate(-63deg);
+    }
+    #drawing2
+    {
+      left: 211px;
+      width: 82px;
+      transform: rotate(-50deg);
+    }
+    #drawing3
+    {
+      position: absolute;
+      left: 0px;
+      top: 47px;
+      width: 128px;
+    }
+    #drawing4
+    {
+      top: 308px;
+      left: 218px;
+      width: 71px;
     }
     h2 {
       font-size: 32px;
