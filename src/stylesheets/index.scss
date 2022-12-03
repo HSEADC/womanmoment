@@ -12,14 +12,46 @@ body.index {
     z-index: 2;
   }
   h1 {
-    position: absolute;
+    position: relative;
+    margin: 0 auto;
     font-weight: 700;
+    text-align: center;
     color: #0c0c0c;
-    font-size: 260px;
-    line-height: 214px;
-    top: 160px;
-    left: 4vw;
+    font-size: 210px;
+    line-height: 165px;
+    top: 100px;
   }
+  .slogan
+  {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    color: #0c0c0c;
+    top: 166px;
+  }
+
+#drawing1
+{
+  position: absolute;
+
+}
+#drawing2
+{
+  position: absolute;
+  left: 1047px;
+}
+#drawing3
+{
+  position: absolute;
+  left: 917px;
+  top: 547px;
+}
+#drawing4
+{
+  position: absolute;
+  top: 491px;
+  left: 237px;
+}
   // h2 {
   //   text-align: center;
   // }

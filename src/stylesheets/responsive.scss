@@ -4,7 +4,35 @@
     h1 {
       font-size: 380px;
       line-height: 300px;
-      top: 410px;
+      top: 202px;
+    }
+    .slogan
+    {
+      top: 311px;
+      font-size: 36px;
+    }
+    #drawing1
+    {
+      left: 62px;
+      top: 80px;
+      width: 418px;
+    }
+    #drawing2
+    {
+      width: 447px;
+      left: 1912px;
+    }
+    #drawing3
+    {
+      width: 447px;
+      left: 1679px;
+      top: 1008px;
+    }
+    #drawing4
+    {
+      width: 212px;
+      left: 364px;
+      top: 816px;
     }
     h2 {
       font-size: 108px;
@@ -108,9 +136,37 @@
   body.index {
     height: 5360px;
     h1 {
-      font-size: 320px;
-      line-height: 260px;
-      top: 275px;
+      font-size: 250px;
+      line-height: 203px;
+      top: 146px;
+    }
+    .slogan
+    {
+      top: 166px;
+      font-size: 28px;
+      line-height: 34px;
+    }
+    #drawing1
+    {
+      left: 71px;
+      top: 97px;
+    }
+    #drawing2
+    {
+      left: 1381px;
+      width: 303px;
+    }
+    #drawing3
+    {
+      width: 432px;
+      left: 1260px;
+      top: 648px;
+    }
+    #drawing4
+    {
+      top: 672px;
+      left: 328px;
+      width: 165px;
     }
     h2 {
       font-size: 84px;
@@ -120,6 +176,12 @@
     p {
       font-size: 28px;
       line-height: 32px;
+    }
+    .slogan
+    {
+      top: 200px;
+      font-size: 36px;
+      line-height: 45px;
     }
     .invisible {
       width: 1830px;
@@ -199,13 +261,34 @@
   body.index {
     height: 4220px;
     h1 {
-      font-size: 230px;
-      line-height: 190px;
-      top: 140px;
+      font-size: 204px;
+      line-height: 160px;
+      top: 84px;
+    }
+    .slogan
+    {
+      top: 148px;
+      font-size: 20px;
     }
     h2 {
       font-size: 56px;
       line-height: 52px;
+    }
+    #drawing4
+    {
+
+    }
+    #drawing1
+    {
+
+    }
+    #drawing2
+    {
+
+    }
+    #drawing3
+    {
+
     }
     .input,
     p {
@@ -446,7 +529,7 @@
     }
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   body.index {
     height: 3233px;
     h1 {
