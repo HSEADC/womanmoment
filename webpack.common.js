@@ -183,6 +183,20 @@ module.exports = {
       filename: './resources/book.html'
       // chunks: ['page']
     }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/preview.html',
+      filename: './preview.html'
+      // chunks: ['page']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/styleguide.html',
+      filename: './styleguide.html'
+      // chunks: ['page']
+    }),
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
