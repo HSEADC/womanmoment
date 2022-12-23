@@ -1,6 +1,6 @@
 body.index {
   background-color: var(--cream);
-  height: 6100px;
+  height: 100%;
   h1 {
     font-family: 'BodoniC';
     font-weight: 700;
@@ -245,12 +245,13 @@ body.index {
     }
   }
   .last-block {
-    height: 1130px;
+    height: 1200px;
     img {
       position: absolute;
     }
     .images {
-      margin-top: 280px;
+      position: absolute;
+      top: 280px;
     }
     .image-text {
       position: absolute;
@@ -271,6 +272,10 @@ body.index {
       h1 {
         width: 650px;
       }
+    }
+    .main-button {
+      top: 590px;
+      left: 360px;
     }
   }
   .footer {
