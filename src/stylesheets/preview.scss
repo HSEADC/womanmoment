@@ -1,4 +1,4 @@
-body.index {
+body.preview {
   height: 4390px;
   p,
   img,
@@ -21,8 +21,7 @@ body.index {
     line-height: 165px;
     top: 100px;
   }
-  .slogan
-  {
+  .slogan {
     position: relative;
     margin: 0 auto;
     text-align: center;
@@ -30,28 +29,23 @@ body.index {
     top: 166px;
   }
 
-#drawing1
-{
-  position: absolute;
-
-}
-#drawing2
-{
-  position: absolute;
-  left: 1047px;
-}
-#drawing3
-{
-  position: absolute;
-  left: 917px;
-  top: 547px;
-}
-#drawing4
-{
-  position: absolute;
-  top: 491px;
-  left: 237px;
-}
+  #drawing1 {
+    position: absolute;
+  }
+  #drawing2 {
+    position: absolute;
+    left: 1047px;
+  }
+  #drawing3 {
+    position: absolute;
+    left: 917px;
+    top: 547px;
+  }
+  #drawing4 {
+    position: absolute;
+    top: 491px;
+    left: 237px;
+  }
   // h2 {
   //   text-align: center;
   // }
