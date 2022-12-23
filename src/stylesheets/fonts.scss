@@ -78,3 +78,17 @@
   font-weight: 400;
   font-style: oblique;
 }
+@font-face {
+  font-family: 'BodoniC';
+  src: url('fonts/BodoniC-BoldItalic.otf') format('otf'),
+    url('fonts/BodoniC-BoldItalic.otf') format('otf');
+  font-weight: 700;
+  font-style: bold oblique;
+}
+@font-face {
+  font-family: 'BodoniC';
+  src: url('fonts/BodoniC-Italic.otf') format('otf'),
+    url('fonts/BodoniC-Italic.otf') format('otf');
+  font-weight: 400;
+  font-style: oblique;
+}

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Primary Meta Tags -->
+    <title>Превью</title>
+    <meta name="title" content="Вумен Момент — мы говорим про феминизм" />
+    <meta
+      name="description"
+      content="Вумен Момент — информационная система, где есть статьи, видео, подкасты на различные темы для всех, кто интересуется феминизмом."
+    />
+
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Вумен момент — мы говорим про феминизм"
+    />
+    <meta
+      property="og:description"
+      content="Вумен Момент — информационная система, где есть статьи, видео, подкасты на различные темы для всех, кто интересуется феминизмом."
+    />
+    <meta
+      property="og:image"
+      content="https://womanmoment.adc.ac/share/og-image.png"
+    />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:title"
+      content="Вумен момент — мы говорим про феминизм"
+    />
+    <meta
+      property="twitter:description"
+      content="Вумен Момент — информационная система, где есть статьи, видео, подкасты на различные темы для всех, кто интересуется феминизмом."
+    />
+    <meta
+      property="twitter:image"
+      content="https://womanmoment.adc.ac/share/og-image.png"
+    />
+    <analytics></analytics>
+  </head>
+
+  <body class="preview">
+    <section class="main1">
+      <div class="invisible">
+        <img src="images/draw1.png" id="drawing1" />
+        <img src="images/draw2.png" id="drawing2" />
+        <img src="images/letter1.png" id="drawing3" />
+        <img src="images/starpic.png" id="drawing4" />
+        <h1>
+          Вумен <br />
+          Момент
+        </h1>
+        <p class="slogan">
+          Этот проект не только про феминизм, а про каждую из нас.<br />
+          Настоящая ты — это и есть Вумен Момент.
+        </p>
+      </div>
+    </section>
+
+    <section class="main2">
+      <div class="invisible">
+        <div class="what" id="a">
+          <p class="txtinside">
+            Вумен Момент — это выражение, которое используется в контексте
+            высмеивания женщин, их слабости или глупости.
+          </p>
+        </div>
+
+        <img src="images/arrow1.png" id="arrow1" />
+
+        <div class="what" id="b">
+          <p class="txtinside">
+            Но мы считаем, что это высказывание должно приобрести иной смысл,
+            ведь в действительности женщины невероятно сильные и умные.
+          </p>
+        </div>
+
+        <img src="images/arrow2.png" id="arrow2" />
+
+        <div class="what" id="c">
+          <p class="txtinside">
+            И истинный Вумен Момент — это само существование потрясающих женщин.
+          </p>
+          <img src="images/sparkle.png" id="sparkle1" />
+          <img src="images/sparkle2.png" id="sparkle2" />
+        </div>
+      </div>
+    </section>
+
+    <section class="main3">
+      <div>
+        <h2>
+          Мы рассказываем про феминизм
+          <img src="images/star1.png" id="star1" />
+          <img src="images/circle.png" id="circle" />
+          <img src="images/star2.png" id="star2" />
+        </h2>
+      </div>
+    </section>
+
+    <section class="main4">
+      <div class="invisible">
+        <div class="tagsflex">
+          <div class="tagsflexinline">
+            <div class="bubble">
+              <p>Женщинам</p>
+            </div>
+            <div class="bubble">
+              <p>Девушкам</p>
+            </div>
+            <div class="bubble">
+              <p>Девочкам</p>
+            </div>
+          </div>
+          <div class="tagsflexcolumn">
+            <div class="bubble">
+              <p>Всем интересующимся</p>
+            </div>
+            <div class="bubble">
+              <p>Начинающим свой путь в феминизме</p>
+            </div>
+            <div class="bubble">
+              <p>Продвинутым феминисткам</p>
+            </div>
+          </div>
+        </div>
+        <img src="images/sparkle.png" id="sparkle3" />
+      </div>
+    </section>
+    <section class="main5">
+      <div class="invisible">
+        <div id="txtemail">
+          <h2>Узнайте о запуске первыми</h2>
+          <p>
+            Поддержите наш проект! Оставьте свой email, чтобы не пропустить
+            главный Вумен Момент этого года.
+          </p>
+        </div>
+        <div id="emails">
+          <form
+            id="my-form"
+            action="https://formspree.io/f/mdojzwyp"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              placeholder="Хочу узнать о запуске"
+              class="input"
+            />
+            <button id="my-form-button"></button>
+            <p id="my-form-status"></p>
+          </form>
+        </div>
+        <img src="images/lovewomen.png" id="lovewomen" />
+      </div>
+    </section>
+
+    <script>
+      var form = document.getElementById('my-form')
+
+      async function handleSubmit(event) {
+        event.preventDefault()
+        var status = document.getElementById('my-form-status')
+        var data = new FormData(event.target)
+        fetch(event.target.action, {
+          method: form.method,
+          body: data,
+          headers: {
+            Accept: 'application/json'
+          }
+        })
+          .then((response) => {
+            if (response.ok) {
+              status.innerHTML = 'Спасибо!'
+              form.reset()
+            } else {
+              response.json().then((data) => {
+                if (Object.hasOwn(data, 'errors')) {
+                  status.innerHTML = data['errors']
+                    .map((error) => error['message'])
+                    .join(', ')
+                } else {
+                  status.innerHTML = 'Произошла ошибка :('
+                }
+              })
+            }
+          })
+          .catch((error) => {
+            status.innerHTML = 'Произошла ошибка:('
+          })
+      }
+      form.addEventListener('submit', handleSubmit)
+    </script>
+  </body>
+</html>

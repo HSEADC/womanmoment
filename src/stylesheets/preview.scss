@@ -1,0 +1,246 @@
+body.preview {
+  height: 4390px;
+  p,
+  img,
+  div,
+  h1,
+  h2,
+  a,
+  form,
+  input,
+  button {
+    z-index: 2;
+  }
+  h1 {
+    position: relative;
+    margin: 0 auto;
+    font-weight: 700;
+    text-align: center;
+    color: #0c0c0c;
+    font-size: 210px;
+    line-height: 165px;
+    top: 100px;
+  }
+  .slogan {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    color: #0c0c0c;
+    top: 166px;
+  }
+
+  #drawing1 {
+    position: absolute;
+  }
+  #drawing2 {
+    position: absolute;
+    left: 1047px;
+  }
+  #drawing3 {
+    position: absolute;
+    left: 917px;
+    top: 547px;
+  }
+  #drawing4 {
+    position: absolute;
+    top: 491px;
+    left: 237px;
+  }
+  // h2 {
+  //   text-align: center;
+  // }
+  section {
+    position: relative;
+    display: block;
+    width: 96vw;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-image: url('./images/texture.png');
+    background-size: cover;
+  }
+  img {
+    position: absolute;
+  }
+  #texture {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  .main1 {
+    margin-top: 2vw;
+    height: 720px;
+    background-color: #f4b5c1;
+    background-position: right 0px top -30px;
+  }
+  .main2 {
+    height: 1340px;
+    background-color: #0c0c0c;
+    background-position: right 0px top -720px;
+  }
+  .main3 {
+    height: 800px;
+    background-color: #f4b5c1;
+    background-position: right 0px top -2121px;
+  }
+  .main4 {
+    height: 530px;
+    background-color: #0c0c0c;
+    background-position: right 0px top -2890px;
+  }
+  .main5 {
+    height: 970px;
+    background-color: #f4b5c1;
+    margin-bottom: 2vw;
+    background-position: right 0px top -3420px;
+  }
+  .what {
+    position: absolute;
+    background-color: white;
+    width: 684px;
+    border: 2px solid #0c0c0c;
+    border-radius: 50px;
+  }
+  .txtinside {
+    padding: 45px 58px;
+  }
+  .invisible {
+    position: relative;
+    margin: 0 auto;
+    width: 1380px;
+    height: inherit;
+  }
+  #a {
+    top: 120px;
+    left: 58px;
+  }
+  #b {
+    top: 590px;
+    right: 116px;
+  }
+  #c {
+    position: relative;
+    margin: 0 auto;
+    top: 1090px;
+  }
+  #arrow1 {
+    top: 309px;
+    left: 530px;
+  }
+  #arrow2 {
+    top: 844px;
+    left: 490px;
+  }
+  #sparkle1 {
+    top: 10px;
+    left: -170px;
+  }
+  #sparkle2 {
+    top: 1px;
+    right: -170px;
+  }
+  .main3 div {
+    width: 800px;
+    margin: 0 auto;
+    top: 332px;
+    position: relative;
+    text-align: center;
+  }
+  #star1 {
+    top: -168px;
+    left: -40px;
+  }
+  #circle {
+    top: -200px;
+    left: -70px;
+  }
+  #star2 {
+    top: 180px;
+    left: 670px;
+  }
+  .tagsflex {
+    display: flex;
+    position: relative;
+    top: 125px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .tagsflexinline {
+    display: flex;
+  }
+  .bubble {
+    position: relative;
+    display: inline-flex;
+    width: auto;
+    background-color: white;
+    border: 2px solid #0c0c0c;
+    border-radius: 50px;
+    p {
+      padding: 16px 45px;
+    }
+  }
+  .tagsflexcolumn {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .main5 {
+    h2 {
+      position: relative;
+    }
+    p {
+      position: relative;
+      width: 685px;
+      margin-top: 16px;
+    }
+    #txtemail {
+      position: absolute;
+      top: 190px;
+      left: 200px;
+    }
+  }
+  #emails {
+    position: relative;
+    margin: 0 auto;
+    width: 700px;
+    top: 500px;
+  }
+  .input {
+    border: 2px solid #0c0c0c;
+    border-radius: 50px;
+    font-size: 24px;
+    padding: 16px 100px 16px 42px;
+    font-family: 'helvetica';
+    width: 700px;
+    color: #f4b5c1;
+  }
+  #my-form-button {
+    position: absolute;
+    right: 8px;
+    top: 6px;
+    background-color: #0c0c0c;
+    background-image: url('./images/tick.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+  #my-form-button:hover {
+    background-color: #f4b5c1;
+    cursor: pointer;
+  }
+  #lovewomen {
+    bottom: 110px;
+    left: 530px;
+  }
+  #sparkle3 {
+    bottom: 50px;
+    left: 180px;
+  }
+}
