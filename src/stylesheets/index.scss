@@ -31,6 +31,7 @@ body.index {
     display: block;
     width: 1372px;
     margin: 0 auto;
+    // overflow-x: hidden;
   }
   .bubble {
     border-radius: 50px;
@@ -258,7 +259,7 @@ body.index {
       width: 908px;
       height: 630px;
       top: 30px;
-      left: 470px;
+      left: 450px;
     }
     .last-image2 {
       width: inherit {
