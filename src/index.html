@@ -22,7 +22,7 @@
     />
     <meta
       property="og:image"
-      content="https://womanmoment.adc.ac/share/og-image.png"
+      content="https://womanmoment.adc.ac/share/og-image-landing.png"
     />
 
     <meta property="twitter:card" content="summary_large_image" />
@@ -36,16 +36,16 @@
     />
     <meta
       property="twitter:image"
-      content="https://womanmoment.adc.ac/share/og-image.png"
+      content="https://womanmoment.adc.ac/share/og-image-landing.png"
     />
     <analytics></analytics>
   </head>
   <body class="index">
     <section class="main-screen">
       <div class="newmenubar">
-        <a>про платформу</a>
-        <a>мы рассказываем</a>
-        <a>наши особенности</a>
+        <a href="#sec1">про платформу</a>
+        <a href="#sec2">мы рассказываем</a>
+        <a href="#sec3">наши особенности</a>
       </div>
       <img src="images/redlogo.svg" class="landing-logo" />
       <div class="main-blobs">
@@ -62,7 +62,7 @@
         <a class="main-button">Узнать больше</a>
       </div>
     </section>
-    <section class="description">
+    <section class="description" id="sec1">
       <p>
         <span>Вумен момент —</span>образовательный
         <span>медиапортал,</span> где собраны
@@ -70,7 +70,7 @@
         <span>для всех</span> языком.
       </p>
     </section>
-    <section class="we-discuss">
+    <section class="we-discuss" id="sec2">
       <h1>Мы рассказываем</h1>
       <div class="flex-cards">
         <div class="card">
@@ -115,7 +115,7 @@
         </div>
       </div>
     </section>
-    <section class="tagsection">
+    <section class="tagsection" id="sec3">
       <h1>Наши особенности</h1>
       <div class="text-block">
         <h2>Система тэгов</h2>
@@ -124,20 +124,21 @@
           проще ориентироваться в материалах нашего медиа.
         </p>
       </div>
-      <div class="tags-system">
-        <img src="images/tags-system-img.png" />
-        <div>
+      <img src="images/tags-new.svg" />
+      <!-- <div class="tags-system"> -->
+      <!-- <div>
           <p class="bubble">сексизм</p>
           <p class="bubble">история гендера</p>
           <p class="bubble">виды феминизма</p>
           <p class="bubble">гендерные роли</p>
         </div>
-      </div>
+      </div>-->
     </section>
     <section class="dictionary-background">
       <section class="dictionary">
         <div class="system-of-dictionary">
-          <img src="images/razdel.png" />
+          <!-- <img src="images/razdel.png" /> -->
+          <p class="sexism">сексизм</p>
           <p class="bubble">
             Сексизм — набор предрассудков и предвзятое отношение к людям
             или дискриминация людей по признаку пола или гендера; предубеждение,
@@ -167,20 +168,26 @@
               и феминизме больше.
             </p>
           </div>
-          <a class="main-button">Узнать больше</a>
+          <a class="main-button">Присоединиться</a>
         </div>
       </div>
     </section>
     <section class="footer">
-      <div class="social-media">
-        <a>ВКонтакте</a>
-        <a>Инстаграм</a>
-        <a>Телеграм</a>
+      <div class="icons">
+        <a href="https://vk.com/public216859041"
+          ><img src="images/vk-icon.svg" alt="" target="_blank"
+        /></a>
+        <a href="https://www.instagram.com/woman_momennt/?r=nametag"
+          ><img src="images/inst-icon.svg" alt="" target="blank"
+        /></a>
+        <a href="https://t.me/womenmomennt"
+          ><img src="images/telegram-icon.svg" alt="" target="blank"
+        /></a>
       </div>
-      <p>
-        Россия, Москва <br />
-        Улица Малая Пионерская, 12
-      </p>
+      <div class="contacts">
+        <p><br />womanmoment@edu.hse.ru</p>
+        <p>Россия, Москва <br />Улица Малая Пионерская, 12</p>
+      </div>
     </section>
   </body>
 </html>

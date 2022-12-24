@@ -168,6 +168,10 @@ body.index {
       text-align: center;
       margin: 270px auto 0 auto;
     }
+    img {
+      position: absolute;
+      top: 385px;
+    }
     .tags-system {
       position: absolute;
       width: 685px;
@@ -233,7 +237,13 @@ body.index {
         position: absolute;
         width: inherit;
       }
-      p {
+      .sexism {
+        font-size: 85px;
+        position: absolute;
+        top: 230px;
+        left: 60px;
+      }
+      .bubble {
         position: absolute;
         width: 594px;
         height: 190px;
@@ -242,6 +252,7 @@ body.index {
         background-color: var(--cream);
         color: var(--red);
         border: solid 2px var(--red);
+        border-radius: 25px;
       }
     }
   }
@@ -284,25 +295,23 @@ body.index {
     width: 100vw;
     background-color: var(--red);
     margin: 0;
-    a,
-    a {
+    .icons {
+      position: absolute;
+      top: 85px;
+      left: 55px;
+      display: flex;
+      gap: 40px;
     }
-    .social-media {
+    .contacts {
       position: absolute;
       display: flex;
-      flex-direction: column;
-      gap: 30px;
-      bottom: 70px;
-      left: 150px;
-      a {
+      flex-direction: row;
+      gap: 140px;
+      right: 45px;
+      bottom: 45px;
+      p {
         color: var(--cream);
       }
-    }
-    p {
-      position: absolute;
-      right: 150px;
-      bottom: 70px;
-      color: var(--cream);
     }
   }
 }
