@@ -6,4 +6,69 @@ body.main {
   position: relative;
   margin: 0 auto;
 }
+.A_BacgroundShape {
+  position: absolute;
+  width: 1440px;
+  height: 2836px;
+  left: 0px;
+}
+.T_Card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* Располагаем карточки в ряд и размещаем между ними промежутки */
+}
 
+.O_ArticleCard {
+  width: 430px;
+  margin-bottom: 20px;
+  padding-top: 50px;
+  transition: 0.3s;
+
+  overflow: hidden;
+  /* Задаем ширину карточки, добавляем тень и скругляем углы */
+}
+
+.O_ArticleCard:hover {
+  cursor: pointer;
+  /* Немного увеличиваем тень при наведении на карточку */
+}
+
+.O_ArticleCard img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  /* Растягиваем картинку на всю ширину карточки */
+}
+
+.O_CardText {
+  padding: 10px;
+  text-align: left;
+  font-family: 'Helvetica';
+
+  /* Выравниваем текст в центре карточки и добавляем небольшой отступ */
+}
+
+.O_CardText h3 {
+  margin-bottom: 10px;
+  font-size: 36px;
+  font-family: 'BodoniC';
+  font-style: italic;
+  color: white;
+  /* Задаем размер заголовка и отступ от него до следующего элемента */
+}
+
+.O_CardText p {
+  font-size: 1rem;
+  line-height: 1.2;
+  color: white;
+  /* Задаем размер текста и межстрочный интервал */
+}
+.rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 2836px;
+  left: 0px;
+  top: 1065px;
+  color: black;
+}
