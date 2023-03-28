@@ -78,3 +78,20 @@ h3 {
   color: #e9d3ff;
   cursor: pointer;
 }
+.breadcrumbs {
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: 'Helvetica';
+  font-size: 16px;
+  margin-left: 45px;
+  margin-top: 10px;
+}
+
+.breadcrumbs a {
+  color: var(--red);
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  color: var(--red);
+}

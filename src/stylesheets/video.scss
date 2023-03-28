@@ -1,4 +1,4 @@
-body.book {
+body.videos {
   background-color: var(--cream);
   width: 1440px;
   // margin: 0 auto;
@@ -21,51 +21,48 @@ body.book {
   color: var(--red);
   cursor: pointer;
 }
-.MainContent {
+
+.VideoImage {
+  margin-left: 45px;
+}
+.M_TitleArticle {
+  color: var(--red);
+  font-family: 'BadoniC';
+  font-style: italic;
+}
+.A_TitleArticle {
+  font-size: 75px;
+  margin-left: 45px;
+  margin-top: 60px;
+}
+.ArticleText {
+  margin-left: 45px;
+  font-size: 53px;
+  margin-top: 20px;
+}
+.ContainerMain {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
-}
-.ABookPicture {
-  position: relative;
-  margin-left: 45px;
-  margin-top: 72px;
-  margin-bottom: 54px;
-}
-.content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 33px;
+  margin-top: 53px;
+  padding-bottom: 83px;
 }
 
-h2 {
-  font-size: 2em;
-  margin: 0;
-}
-
-p {
-  font-size: 1.2em;
-}
-.A_ArticleName {
-  color: var(--red);
-  font-family: 'BadoniC';
-  font-style: italic;
-  font-size: 75px;
-}
-.A_ArticleNameLittle {
-  color: var(--red);
-  font-family: 'BadoniC';
-  font-style: italic;
-  font-size: 52px;
-  margin-top: 10px;
-}
-
-.A_ArticleText {
+.left-column {
   max-width: 657px;
+  margin-left: 45px;
   font-family: 'Helvetica';
   font-size: 24px;
 }
+
+.right-column {
+  max-width: 657px;
+  margin-right: 45px;
+  font-family: 'Helvetica';
+
+  font-size: 24px;
+}
+
 .A_ButtonB {
   margin-top: 33px;
   width: 558px;
@@ -78,21 +75,4 @@ p {
   font-style: italic;
   color: #f95b5b;
   font-size: 36px;
-}
-.breadcrumbs {
-  font-size: 14px;
-  line-height: 1.4;
-  font-family: 'Helvetica';
-  font-size: 16px;
-  margin-left: 45px;
-  margin-top: 10px;
-}
-
-.breadcrumbs a {
-  color: var(--red);
-  text-decoration: none;
-}
-
-.breadcrumbs a:hover {
-  color: var(--red);
 }

@@ -154,6 +154,34 @@ module.exports = {
       filename: './book.html'
       // chunks: ['page']
     }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/podcast.html',
+      filename: './podcast.html'
+      // chunks: ['page']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/activity.html',
+      filename: './activity.html'
+      // chunks: ['page']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/videos.html',
+      filename: './videos.html'
+      // chunks: ['page']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/mediaproject.html',
+      filename: './mediaproject.html'
+      // chunks: ['page']
+    }),
     //Отдельные статьи и тд
     new HtmlWebpackPlugin({
       hash: true,

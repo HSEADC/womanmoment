@@ -1,4 +1,4 @@
-body.book {
+body.activity {
   background-color: var(--cream);
   width: 1440px;
   // margin: 0 auto;
@@ -28,15 +28,22 @@ body.book {
 }
 .ABookPicture {
   position: relative;
+
   margin-left: 45px;
-  margin-top: 72px;
+  margin-top: 52px;
   margin-bottom: 54px;
+}
+.ABookPicture img {
+  width: 90%;
+  height: 90%;
 }
 .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 33px;
+  // margin-left: 10px;
+  margin-right: 45px;
+  margin-bottom: 130px;
 }
 
 h2 {
@@ -62,7 +69,7 @@ p {
 }
 
 .A_ArticleText {
-  max-width: 657px;
+  max-width: 660px;
   font-family: 'Helvetica';
   font-size: 24px;
 }
@@ -78,21 +85,4 @@ p {
   font-style: italic;
   color: #f95b5b;
   font-size: 36px;
-}
-.breadcrumbs {
-  font-size: 14px;
-  line-height: 1.4;
-  font-family: 'Helvetica';
-  font-size: 16px;
-  margin-left: 45px;
-  margin-top: 10px;
-}
-
-.breadcrumbs a {
-  color: var(--red);
-  text-decoration: none;
-}
-
-.breadcrumbs a:hover {
-  color: var(--red);
 }
