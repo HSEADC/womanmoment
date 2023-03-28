@@ -147,6 +147,13 @@ module.exports = {
       filename: './main.html'
       // chunks: ['page']
     }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/book.html',
+      filename: './book.html'
+      // chunks: ['page']
+    }),
     //Отдельные статьи и тд
     new HtmlWebpackPlugin({
       hash: true,
