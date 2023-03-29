@@ -1,13 +1,13 @@
 body.guide {
   background-color: var(--cream);
-  padding-left: 35px;
+  padding-left: 45px;
   padding-right: 45px;
 }
 
 .container_g {
   height: 100%;
   width: 1440px;
-  padding-left: 45px;
+  // padding-left: 45px;
 }
 
 .search {
@@ -149,6 +149,7 @@ b.about_feminism_title {
   display: grid;
   justify-content: space-evenly;
   grid-template-columns: repeat(3, 1fr);
+
   gap: 20px;
 }
 
@@ -190,6 +191,7 @@ b.about_feminism_title {
 
 .fem_directions_title {
   font-family: 'Bodoni Cyrillic', arial, serif;
+  font-style: italic;
   font-size: 64px;
   color: #f95b5b;
 }
@@ -198,7 +200,12 @@ b.fem_directions_title {
   font-family: Helvetica, serif;
   font-size: 52px;
 }
-
+.fem_directions_liberal {
+  margin-right: 45px;
+}
+.fem_directions_marxist {
+  margin-right: 45px;
+}
 .direction_title {
   font-family: 'Bodoni Cyrillic', arial, serif;
   font-size: 45px;
@@ -244,6 +251,7 @@ b.fem_directions_title {
 
 .direction_text {
   margin-top: 40px;
+  padding-bottom: 90px;
 }
 
 .direction_text_div {
