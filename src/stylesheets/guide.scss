@@ -1,0 +1,282 @@
+body.guide {
+  background-color: var(--cream);
+  padding-left: 35px;
+  padding-right: 45px;
+}
+
+.container_g {
+  height: 100%;
+  width: 1440px;
+  padding-left: 45px;
+}
+
+.search {
+  width: 94%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.search_input {
+  width: 100%;
+  height: 56px;
+  border: 2px solid #f95b5b;
+  border-radius: 28px;
+  background-color: #efe6df;
+  font-size: 24px;
+  padding-left: 38px;
+}
+
+.search_input::placeholder {
+  font-family: Helvetica;
+  font-size: 24px;
+  color: #f95b5bd1;
+}
+
+.list {
+  font-size: 24px;
+  color: #f95b5bd1;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.hiddenList {
+  display: none;
+}
+
+.searchable {
+  display: none;
+}
+
+.links {
+  font-size: 24px;
+  color: #f95b5bd1;
+  text-decoration: none;
+  font-style: oblique;
+}
+
+.start_text {
+  width: 65%;
+  font-size: 36px;
+  font-family: Helvetica, serif;
+  color: #f95b5b;
+}
+
+i.start_text {
+  font-family: 'Bodoni Cyrillic', arial, serif;
+  font-size: 45px;
+}
+
+.start_button_div {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.start_button {
+  font-family: 'BadoniC';
+  font-style: italic, oblique;
+  font-size: 36px;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 40px;
+  border: 0;
+  background-color: #f95b5b;
+}
+
+.about_feminism {
+  padding-right: 75px;
+  font-family: 'Helvetica';
+  font-size: 24px;
+}
+
+.about_feminism_title {
+  font-family: 'BadoniC';
+  font-style: italic;
+  font-size: 64px;
+  color: var(--red);
+}
+
+b.about_feminism_title {
+  font-family: 'Helvetica';
+  font-size: 52px;
+}
+
+.about_feminism_img_div {
+  margin-top: 37px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about_feminism_img {
+  width: 545px;
+  height: 250px;
+}
+
+.about_feminism_text {
+  margin-top: 37px;
+  display: flex;
+  font-family: 'Helvetica';
+}
+
+.about_feminism_text_img {
+  width: 545px;
+  height: 348px;
+}
+
+.about_feminism_text_div {
+  margin-left: 31px;
+  height: 348px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Helvetica';
+}
+
+.useful_articles {
+  margin-bottom: 122px;
+  padding-right: 55px;
+}
+
+.useful_articles_title {
+  font-family: 'BadoniC';
+  font-style: oblique;
+  font-size: 64px;
+  color: #f95b5b;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.useful_articles_grid {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.useful_articles_grid_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.useful_articles_img {
+  border-radius: 30px;
+  width: 100%;
+  height: 296px;
+  object-fit: cover;
+}
+
+.useful_articles_grid_column_text {
+  margin-left: 17px;
+  color: #f95b5b;
+}
+
+.useful_articles_name {
+  font-family: 'Bodoni Cyrillic', arial, serif;
+  font-size: 36px;
+  font-style: italic;
+  margin-top: 28px;
+}
+
+.useful_articles_text {
+  font-family: Helvetica, serif;
+  font-size: 24px;
+  padding: 10px 50px 50px 0;
+}
+
+.useful_articles_time {
+  font-family: Helvetica, serif;
+  font-size: 18px;
+}
+
+.fem_directions_title {
+  font-family: 'Bodoni Cyrillic', arial, serif;
+  font-size: 64px;
+  color: #f95b5b;
+}
+
+b.fem_directions_title {
+  font-family: Helvetica, serif;
+  font-size: 52px;
+}
+
+.direction_title {
+  font-family: 'Bodoni Cyrillic', arial, serif;
+  font-size: 45px;
+  font-style: italic;
+  color: #f95b5b;
+  margin-top: 60px;
+}
+
+.liberal_img_div {
+  margin-top: 29px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.liberal_img {
+  width: 430px;
+  height: 249px;
+}
+
+.liberal_text {
+  margin-top: 40px;
+  display: flex;
+}
+
+.liberal_text_img_div {
+}
+
+.mini_text {
+  font-family: Helvetica, serif;
+  font-size: 24px;
+}
+
+.liberal_text_img {
+  width: 430px;
+  height: 312px;
+}
+
+.liberal_text_div {
+  margin-left: 31px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.direction_text {
+  margin-top: 40px;
+}
+
+.direction_text_div {
+  display: flex;
+  gap: 30px;
+}
+
+.direction_text_cols {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.direction_left_img {
+  height: 382px;
+  width: 430px;
+}
+
+.direction_right_img {
+  height: 349px;
+  width: 430px;
+}
+
+.text_top {
+  margin-top: 40px;
+}
+
+.direction_left_img_soc {
+  height: 415px;
+  width: 545px;
+}
+
+.direction_right_img_soc {
+  height: 314px;
+  width: 545px;
+}
