@@ -1,7 +1,7 @@
 body.mediaproject {
   background-color: var(--cream);
   width: 1440px;
-  // margin: 0 auto;
+  margin: 0 auto;
 }
 .wrapper {
   position: relative;
@@ -22,29 +22,37 @@ body.mediaproject {
   cursor: pointer;
 }
 
-.AMediaPicture {
+.AMediaPictureM {
   margin-left: 45px;
   margin-top: 72px;
   margin-bottom: 54px;
 }
-.M_TitleArticle {
+.M_TitleArticleM {
   color: var(--red);
   font-family: 'BadoniC';
   font-style: italic;
   font-size: 75px;
+  margin-left: 45px;
+  margin-top: 20px;
 }
-.container {
+.containerM {
   display: grid;
+  position: relative;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   margin-left: 45px;
-  margin-bottom: 100px;
+
+  margin-top: 20px;
   font-family: 'Helvetica';
   font-size: 24px;
   font-style: normal;
 }
-.column2 {
+.column2M {
   margin-right: 45px;
+}
+.column1M {
+  margin-right: 45px;
+  margin-bottom: 70px;
 }
 .MainContent {
   display: flex;
