@@ -157,8 +157,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/podcast.html',
-      filename: './podcast.html'
+      template: './src/book2.html',
+      filename: './book2.html'
       // chunks: ['page']
     }),
     new HtmlWebpackPlugin({
@@ -180,6 +180,34 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/mediaproject.html',
       filename: './mediaproject.html'
+      // chunks: ['page']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/podcast.html',
+      filename: './podcast.html'
+      // chunks: ['page']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/podcast2.html',
+      filename: './podcast2.html'
+      // chunks: ['page']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/research.html',
+      filename: './research.html'
+      // chunks: ['page']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/research2.html',
+      filename: './research2.html'
       // chunks: ['page']
     }),
     //Отдельные статьи и тд

@@ -1,4 +1,4 @@
-body.activity {
+body.book2 {
   background-color: var(--cream);
   width: 1440px;
   // margin: 0 auto;
@@ -21,29 +21,22 @@ body.activity {
   color: var(--red);
   cursor: pointer;
 }
-.MainContentA {
+.MainContentB2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
 }
-.ABookPictureA {
+.ABookPicture {
   position: relative;
-
   margin-left: 45px;
-  margin-top: 52px;
+  margin-top: 72px;
   margin-bottom: 54px;
 }
-.ABookPictureA img {
-  width: 90%;
-  height: 90%;
-}
-.contentA {
+.contentB2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  // margin-left: 10px;
-  margin-right: 45px;
-  margin-bottom: 48px;
+  margin-left: 33px;
 }
 
 h2 {
@@ -54,26 +47,22 @@ h2 {
 p {
   font-size: 1.2em;
 }
-.A_ArticleNameA {
+.A_ArticleNameB2 {
   color: var(--red);
   font-family: 'BadoniC';
   font-style: italic;
   font-size: 75px;
 }
-.A_ArticleNameLittleA {
+.A_ArticleNameLittleB2 {
   color: var(--red);
   font-family: 'BadoniC';
   font-style: italic;
   font-size: 52px;
   margin-top: 10px;
 }
-.A_ArticleTextLittleA {
-  font-size: 24px;
-  font-family: 'Helvetica';
-  margin-top: 20px;
-}
-.A_ArticleTextA {
-  max-width: 660px;
+
+.A_ArticleTextB2 {
+  max-width: 595px;
   font-family: 'Helvetica';
   font-size: 24px;
 }
@@ -89,4 +78,21 @@ p {
   font-style: italic;
   color: #f95b5b;
   font-size: 36px;
+}
+.breadcrumbs {
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: 'Helvetica';
+  font-size: 16px;
+  margin-left: 45px;
+  margin-top: 10px;
+}
+
+.breadcrumbs a {
+  color: var(--red);
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  color: var(--red);
 }

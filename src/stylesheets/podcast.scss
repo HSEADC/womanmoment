@@ -21,23 +21,24 @@ body.podcast {
   color: var(--red);
   cursor: pointer;
 }
-.MainContent {
+.MainContentP {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
 }
-.APodcastPicture {
+.ABookPicture {
   position: relative;
   margin-left: 45px;
-  margin-top: 72px;
+  // margin-top: 72px;
   margin-bottom: 54px;
 }
-.content {
+.contentP {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 5px;
-  margin-top: 60px;
+  margin-right: 90px;
+  margin-top: 50px;
+  margin-bottom: 70px;
 }
 
 h2 {
@@ -48,13 +49,13 @@ h2 {
 p {
   font-size: 1.2em;
 }
-.A_ArticleName {
+.A_ArticleNameP {
   color: var(--red);
   font-family: 'BadoniC';
   font-style: italic;
   font-size: 75px;
 }
-.A_ArticleNameLittle {
+.A_ArticleNameLittleP {
   color: var(--red);
   font-family: 'BadoniC';
   font-style: italic;
@@ -62,17 +63,17 @@ p {
   margin-top: 10px;
 }
 
-.A_ArticleText {
-  max-width: 657px;
+.A_ArticleTextP {
+  max-width: 595px;
+  font-family: 'Helvetica';
+  font-size: 24px;
   margin-top: 20px;
-  font-family: 'Helvetica';
-  font-size: 24px;
 }
-.A_ArticleTextLittle {
-  max-width: 657px;
+.A_ArticleTextPLittle {
+  max-width: 595px;
   font-family: 'Helvetica';
   font-size: 24px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .A_ButtonB {
   margin-top: 33px;
@@ -86,4 +87,21 @@ p {
   font-style: italic;
   color: #f95b5b;
   font-size: 36px;
+}
+.breadcrumbs {
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: 'Helvetica';
+  font-size: 16px;
+  margin-left: 45px;
+  margin-top: 10px;
+}
+
+.breadcrumbs a {
+  color: var(--red);
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  color: var(--red);
 }

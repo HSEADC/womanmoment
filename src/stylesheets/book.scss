@@ -21,7 +21,7 @@ body.book {
   color: var(--red);
   cursor: pointer;
 }
-.MainContent {
+.MainContentB {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
@@ -47,13 +47,13 @@ h2 {
 p {
   font-size: 1.2em;
 }
-.A_ArticleName {
+.A_ArticleNameB {
   color: var(--red);
   font-family: 'BadoniC';
   font-style: italic;
   font-size: 75px;
 }
-.A_ArticleNameLittle {
+.A_ArticleNameLittleB {
   color: var(--red);
   font-family: 'BadoniC';
   font-style: italic;
@@ -61,7 +61,7 @@ p {
   margin-top: 10px;
 }
 
-.A_ArticleText {
+.A_ArticleTextB {
   max-width: 657px;
   font-family: 'Helvetica';
   font-size: 24px;
