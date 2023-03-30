@@ -1,0 +1,190 @@
+body.main {
+  background-color: var(--red);
+  width: 1440px;
+  overflow-x: hidden;
+}
+.wrapper {
+  position: relative;
+}
+
+.menutext {
+  white-space: nowrap;
+  /* Чтобы текст не переносился на новую строчку */
+}
+.M_Quote {
+  padding-left: 45px;
+}
+.M_Quote IMG {
+  width: 92%;
+}
+.A_title {
+  margin-left: 45px;
+
+  padding-top: 90px;
+}
+.T_Card {
+  display: flex;
+  padding-left: 45px;
+  padding-right: 45px;
+  justify-content: space-between;
+  /* Располагаем карточки в ряд и размещаем между ними промежутки */
+}
+
+.O_ArticleCard {
+  width: 430px;
+  margin-bottom: 20px;
+  padding-top: 50px;
+  transition: 0.3s;
+
+  overflow: hidden;
+  /* Задаем ширину карточки, добавляем тень и скругляем углы */
+}
+
+.O_ArticleCard:hover {
+  cursor: pointer;
+  /* Немного увеличиваем тень при наведении на карточку */
+}
+
+.O_ArticleCard img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  /* Растягиваем картинку на всю ширину карточки */
+}
+
+.O_CardText {
+  padding: 10px;
+  text-align: left;
+  font-family: 'Helvetica';
+
+  /* Выравниваем текст в центре карточки и добавляем небольшой отступ */
+}
+
+.O_CardText h3 {
+  margin-bottom: 10px;
+  font-size: 36px;
+  font-family: 'BodoniC';
+  font-style: italic;
+  color: #f95b5b;
+  /* Задаем размер заголовка и отступ от него до следующего элемента */
+}
+
+.O_CardText p {
+  font-size: 1rem;
+  line-height: 1.2;
+  color: #f95b5b;
+  /* Задаем размер текста и межстрочный интервал */
+}
+
+.M_Guide {
+  margin-top: 90px;
+  margin-left: 45px;
+}
+.M_GuideText {
+  width: 691px;
+  height: 241px;
+  background-image: url('/src/images/A_GuideShape.svg');
+}
+.M_GuideText p {
+  font-size: 24px;
+  color: white;
+  padding: 60px 92px 60px 40px;
+}
+.A_Button {
+  margin-top: 13px;
+  display: inline-block;
+  width: 660px;
+  height: 123px;
+  border-radius: 70px;
+  background-color: white;
+  padding-top: 25px;
+  text-align: center;
+  font-family: 'BadoniC';
+  font-style: italic;
+  color: #f95b5b;
+  font-size: 64px;
+}
+.A_GideImage {
+  position: relative;
+}
+
+.A_GidePicture {
+  position: absolute;
+  left: -44px;
+  top: 45px;
+  margin-top: 58px;
+  width: 690px;
+  height: 376px;
+  background-image: url('/src/images/A_GidePicture.png');
+}
+.M_GuideMain {
+  display: flex;
+}
+.backgroundshape {
+  width: 100%;
+  position: relative;
+  height: 2000px;
+  background-color: antiquewhite;
+  border-radius: 101px;
+  margin-top: 155px;
+}
+.backgroundshapeRed {
+  width: 100%;
+  height: 800px;
+  background-color: #f95b5b;
+
+  border-radius: 101px;
+  z-index: 2;
+  position: absolute;
+  margin-top: -265px;
+}
+.TeamMQuote {
+  display: flex;
+  padding-left: 45px;
+}
+.A_ButtonF {
+  margin-top: 33px;
+  margin-left: 390px;
+  display: inline-block;
+  width: 558px;
+  height: 85px;
+  border-radius: 70px;
+  background-color: white;
+  padding-top: 25px;
+  text-align: center;
+  font-family: 'BadoniC';
+  font-style: italic;
+  color: #f95b5b;
+  font-size: 36px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 45px;
+  font-family: 'BadoniC';
+  font-size: 36px;
+  font-style: italic;
+  margin-top: 268px;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.left span {
+  margin-right: 10px;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.right span {
+  margin-left: 10px;
+}

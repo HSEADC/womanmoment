@@ -2,21 +2,372 @@
 <html lang="ru" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <title>Гайд по феминизму</title>
+    <title>Гайд</title>
+    <script src="/src/javascript/search.js" defer></script>
   </head>
-  <body>
+  <body class="guide">
+    <!-- <div class="wrapper"> -->
     <div class="menubar">
+      <a href="main.html" class="logo"
+        ><img src="/src/images/redlogo.svg" alt=""
+      /></a>
       <div class="justmenu">
         <a href="guide.html" class="menutext">Гайд</a>
-        <a href="articles.html" class="menutext">История</a>
         <a href="art.html" class="menutext">Искусство</a>
+        <a href="articles.html" class="menutext">История</a>
         <a href="materials.html" class="menutext">Ресурсы</a>
-        <a href="./" class="menutext">Промо</a>
         <a href="about.html" class="menutext">О нас</a>
-        <a href="help.html" class="menutext">Помощь</a>
       </div>
-      <a href="main.html" class="logo">Вумен момент</a>
+      <!-- </div> -->
     </div>
-    <p>Тут будет гайд</p>
+    <div class="container_g">
+      <div class="start">
+        <div class="search">
+          <div class="search_div">
+            <input
+              onclick="openDiv()"
+              type="search"
+              class="search_input"
+              placeholder="поиск..."
+            />
+            <div class="list hiddenList">
+              Вот, что удалось найти по Вашему запросу:
+              <ul>
+                <li class="searchable">
+                  <a class="links" href="/historyofmart.html"
+                    >История 8 марта</a
+                  >
+                </li>
+                <li class="searchable">
+                  <a class="links" href="/semiotickitchen.html"
+                    >Семиотика кухни</a
+                  >
+                </li>
+                <li class="searchable">
+                  <a class="links" href="/activity.html">Бетти Фридан</a>
+                </li>
+                <li class="searchable">
+                  <a class="links" href="/book2.html">Смелая</a>
+                </li>
+                <li class="searchable">
+                  <a class="links" href="/research.html"
+                    >Гендерные исследования</a
+                  >
+                </li>
+                <li class="searchable">
+                  <a class="links" href="/clara.html">Клара Цеткин</a>
+                </li>
+                <li class="searchable">
+                  <a class="links" href="/feminrussia.html"
+                    >Феминизм в России</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="start_text" onmousedown="focusOut()">
+          <img src="/src/images/A_TitleForParagraph.svg" alt="" />
+        </div>
+        <div class="start_button_div">
+          <button type="button" class="start_button">
+            <i>Разделы</i>
+          </button>
+        </div>
+      </div>
+      <div class="about_feminism">
+        <div class="about_feminism_title">Что такое феминизм</div>
+        <div class="about_feminism_img_div">
+          <img class="about_feminism_img" src="/src/images/img.png" />
+        </div>
+        <div class="about_feminism_text">
+          <div class="about_feminism_text_left">
+            <!-- Прежде чем погружаться во все детали, необходимо дать верное
+            определение самому феминизму. Это даст базу для понимания основ и
+            предотвратит многие недопонимания. Феминизм (от femina с
+            лат. — «женщина») — спектр идеологий, политических и социальных
+            движений, направленных на расши-рение и уравнивание политических,
+            экономических, личных и социальных прав для женщин и преодоление
+            сексизма. -->
+          </div>
+          <div class="about_feminism_text_img_div">
+            <img class="about_feminism_text_img" src="/src/images/img_1.png" />
+          </div>
+          <div class="about_feminism_text_div mini_text">
+            <div>
+              Это также признание того, что на протяжении истории к людям
+              относились по-разному в зависимости от их биологического пола, а
+              также от преобладающего понимания гендерных норм. На осно-вании
+              этих факторов общество предоставляло неравную степень власти
+              мужчинам и женщинам.
+            </div>
+            <div>
+              Взгляды на пол и гендер усилили неравенство зарплат,
+              дискрими-нирующее обращение на работе или в школе, неравный доступ
+              к ресурсам и политической власти. К тому же большинство обществ
+              прибегают к организованному и индивидуальному насилию, чтобы
+              укрепить эти половые и гендерные нормы.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="useful_articles">
+        <div class="useful_articles_title">
+          <i>Полезные статьи по этой теме</i>
+        </div>
+        <div class="useful_articles_grid">
+          <div class="useful_articles_grid_column">
+            <div class="useful_articles_grid_column_img">
+              <img class="useful_articles_img" src="/src/images/img_2.png" />
+            </div>
+            <div class="useful_articles_grid_column_text">
+              <div class="useful_articles_name">
+                <i>Бетти Фридан</i>
+              </div>
+              <div class="useful_articles_text">
+                Вклад известной американской писательницы, активистки
+                <br />
+                и феминистки второй волны <br />в развитие движения.
+              </div>
+              <div class="useful_articles_time">Время прочтения: 10 минут</div>
+            </div>
+          </div>
+          <div class="useful_articles_grid_column">
+            <div class="useful_articles_grid_column_img">
+              <img class="useful_articles_img" src="/src/images/img_3.png" />
+            </div>
+            <div class="useful_articles_grid_column_text">
+              <div class="useful_articles_name">
+                <i>Смелая</i>
+              </div>
+              <div class="useful_articles_text">
+                Книга актрисы Роуз Макгоуэн, рассказывающей о сложностях
+                Голливуда и харассменте
+                <br />
+                со стороны Харви Вайнштейна.
+              </div>
+              <div class="useful_articles_time">Время прочтения: 7 часов</div>
+            </div>
+          </div>
+          <div class="useful_articles_grid_column">
+            <div class="useful_articles_grid_column_img">
+              <img class="useful_articles_img" src="/src/images/img_4.png" />
+            </div>
+            <div class="useful_articles_grid_column_text">
+              <div class="useful_articles_name">
+                <i>История 8 Марта</i>
+              </div>
+              <div class="useful_articles_text">
+                Протесты и возникновение праздника, посвященного борьбе
+                <br />
+                за равноправие и мир. Истинная цель и стереотипы.
+              </div>
+              <div class="useful_articles_time">
+                Время прослушивания: 15 минут
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fem_directions">
+        <div class="fem_directions_title">
+          <i>Н</i><b>ап</b><i>р</i><b>ав</b><i>лен</i><b>ия</b> <i>ф</i><b>е</b
+          ><i>ми</i><b>н</b><i>из</i><b>ма</b>
+        </div>
+        <div class="fem_directions_liberal">
+          <div class="direction_title">Либеральный феминизм</div>
+          <div class="liberal_img_div">
+            <img class="liberal_img" src="/src/images/img_5.png" />
+          </div>
+          <div class="liberal_text">
+            <div class="liberal_text_img_div">
+              <img class="liberal_text_img" src="/src/images/img_6.png" />
+            </div>
+            <div class="liberal_text_div mini_text">
+              В чем заключается либеральный феминизм и почему он первый?
+              <br />
+              Либеральный феминизм нацелен на решение базисных проблем женщин:
+              <br />
+              когда у женщин нет собственных средств на проживание, нет своей
+              недвижимости, когда женщина не может путешествовать и развестись.
+              Безусловно, проблемы, которые волновали феминисток второй волны,
+              волновали феминисток первой волны не так сильно, ведь им нужно
+              было решить какие-то базовые вопросы.
+            </div>
+          </div>
+        </div>
+        <div class="fem_directions_marxist">
+          <div class="direction_title">Марксистский феминизм</div>
+          <div class="direction_text">
+            <div class="direction_text_div">
+              <div class="direction_text_cols mini_text">
+                <div>
+                  Говоря о марксистском феминизме, мы в первую очередь говорим о
+                  Германии
+                  <br />и СССР и следующих представительницах: Клара Цеткин,
+                  Лили Браун и Александра Коллонтай. Коллонтай оказала большое
+                  влияние на движение, она объединила марксистский феминизм,
+                  основой которого является мысль, что женское угнетение может
+                  быть уничтожено только с уничтожением капиталистической
+                  системы, <br />
+                  и женский опыт.
+                </div>
+                <div>
+                  В то время как Энгельс и другие соратники Коллонтай по
+                  Коммунистической партии считали, что женщина не особенная и
+                  как только мы разрушим капитализм,
+                  <br />у женщин все будет хорошо, Коллонтай говорила, что
+                  необходимо акцентировать внимание на том, что женщина
+                  заключена дома и на ней лежит большое количество обязанностей
+                  по дому, воспитанию детей.
+                </div>
+              </div>
+              <div class="direction_text_left_img_div">
+                <img class="direction_left_img" src="/src/images/img_7.png" />
+              </div>
+            </div>
+            <div class="direction_text_div text_top">
+              <div class="direction_text_right_img_div">
+                <img class="direction_right_img" src="/src/images/img_8.png" />
+              </div>
+              <div class="direction_text_cols mini_text">
+                <div>
+                  Она хотела создавать сети общественных заведений, которые бы
+                  облегчили гнёт домашнего хозяйства: столовые, прачечные,
+                  детские сады и так далее. Но в обмен на то, что женщина
+                  освобождается от общественного труда, государство ждало
+                  <br />
+                  от женщины, что она станет работать и приносить пользу
+                  государству, а также в обязательном порядке станет матерью. То
+                  есть женщине государство облегчает жизнь, а со своей стороны
+                  она должна родить граждан для государства.
+                </div>
+                <div>
+                  Такое видение называлось государственным матриархатом,
+                  поскольку в анализе Коллонтай нет мужчины как такового и
+                  освобождение женщины происходит благодаря государству.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="useful_articles">
+            <div class="useful_articles_title">
+              <i>Полезные статьи по этой теме</i>
+            </div>
+            <div class="useful_articles_grid">
+              <div class="useful_articles_grid_column">
+                <div class="useful_articles_grid_column_img">
+                  <img
+                    class="useful_articles_img"
+                    src="/src/images/img_9.png"
+                  />
+                </div>
+                <div class="useful_articles_grid_column_text">
+                  <div class="useful_articles_name">Гендерные исследования</div>
+                  <div class="useful_articles_text">
+                    В статье рассматривается история развития феминизма
+                    <br />
+                    на Западе и в России, а также дальнейшие его действия.
+                  </div>
+                  <div class="useful_articles_time">
+                    Время прочтения: 10 минут
+                  </div>
+                </div>
+              </div>
+              <div class="useful_articles_grid_column_two">
+                <div class="useful_articles_grid_column_img">
+                  <img
+                    class="useful_articles_img"
+                    src="/src/images/img_10.png"
+                  />
+                </div>
+                <div class="useful_articles_grid_column_text">
+                  <div class="useful_articles_name">Клара Цеткин</div>
+                  <div class="useful_articles_text">
+                    Одна из первых женщин, стоявших у истоков феминизма. Именно
+                    благодаря ей появился Международный женский день.
+                  </div>
+                  <div class="useful_articles_time">
+                    Время прочтения: 10 минут
+                  </div>
+                </div>
+              </div>
+              <div class="useful_articles_grid_column">
+                <div class="useful_articles_grid_column_img">
+                  <img
+                    class="useful_articles_img"
+                    src="/src/images/img_11.png"
+                  />
+                </div>
+                <div class="useful_articles_grid_column_text">
+                  <div class="useful_articles_name">Феминизм в России</div>
+                  <div class="useful_articles_text">
+                    Основные вехи и ключевые личности, которые повлияли
+                    <br />
+                    на становление женского движения в России.
+                  </div>
+                  <div class="useful_articles_time">
+                    Время прочтения: 25 минут
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="direction_title">Марксистский феминизм</div>
+          <div class="direction_text">
+            <div class="direction_text_div">
+              <div class="direction_text_cols mini_text">
+                <div>
+                  Исследования о социалистическом феминизме расходятся. Кто-то
+                  говорит о том, что социалистический феминизм обгоняет
+                  марксистский и такие исследовательницы, как Эмма Голдман и
+                  Шарлотта Гилман, начали свою деятельность раньше, чем
+                  марк-систские феминистки. А другие считают, что
+                  социалистический феминизм появился в 1960–70-х годах с
+                  появлением движения новых левых.
+                </div>
+                <div>
+                  Марксистские феминистки считали, что угнетение женщин —
+                  частный случай капиталистического и классового угнетения, а
+                  социалистические говорили, что женщина угнетена не только
+                  капитализмом, но и социальными отношениями (патриархатом).
+                  Мнения разделились и по поводу способа освобождения женщин.
+                </div>
+              </div>
+              <div class="direction_text_left_img_div">
+                <img
+                  class="direction_left_img_soc"
+                  src="/src/images/img_12.png"
+                />
+              </div>
+            </div>
+            <div class="direction_text_div text_top">
+              <div class="direction_text_right_img_div">
+                <img
+                  class="direction_right_img_soc"
+                  src="/src/images/img_13.png"
+                />
+              </div>
+              <div class="direction_text_cols mini_text">
+                <div>
+                  Если марксистские феминистки считали, что единственный способ
+                  освобождения женщин — это революционное уничтожение
+                  капитализма, то социалистические считали, что для искоренения
+                  угнетения необходимо как экономическое, так и социальное
+                  изменение общества.
+                </div>
+                <div>
+                  Еще одним важным пунктом являлось то, что в марксистском
+                  движении считалось, что классовые различия не позволяли
+                  женщинам объединиться по признаку пола, а в социалистическом
+                  объединение женщин было возможно, так как они имеют общий
+                  опыт.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

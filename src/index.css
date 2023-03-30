@@ -13,5 +13,12 @@
 @import 'stylesheets/artpiece.scss';
 @import 'stylesheets/responsive.scss';
 @import 'stylesheets/book.scss';
+@import 'stylesheets/book2.scss';
 @import 'stylesheets/preview.scss';
 @import 'stylesheets/styleguide.scss';
+@import 'stylesheets/main.scss';
+@import 'stylesheets/podcast.scss';
+@import 'stylesheets/activity.scss';
+@import 'stylesheets/video.scss';
+@import 'stylesheets/mediaproject.scss';
+@import 'stylesheets/research.scss';
