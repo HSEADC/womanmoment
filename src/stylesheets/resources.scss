@@ -1,0 +1,183 @@
+Body.materials {
+}
+.A_TitleForParagraphR {
+  margin-left: 45px;
+}
+.TitleForParagraph {
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.titleresource {
+  margin-left: 46px;
+  margin-top: 55px;
+}
+.ArticleCardBook {
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.namearticle {
+  margin-bottom: 10px;
+  font-size: 36px;
+  font-family: 'BodoniC';
+  font-style: italic;
+  color: #f95b5b;
+  margin-left: 88px;
+  margin-top: 33px;
+}
+.description {
+  padding: 10px;
+  text-align: left;
+  font-family: 'Helvetica';
+  color: #f95b5b;
+  margin-left: 77px;
+  margin-top: -11px;
+  font-size: 24px;
+  width: 50%;
+
+  /* Выравниваем текст в центре карточки и добавляем небольшой отступ */
+}
+.ArticleCardBookRight {
+  margin-left: 680px;
+  margin-top: -1465px;
+  position: absolute;
+  width: 50%;
+}
+.articletextright {
+  position: absolute;
+  margin-top: -979px;
+  margin-left: 637px;
+}
+.ArticleCardBookRightTwo {
+  position: absolute;
+  margin-top: -774px;
+  margin-left: 680px;
+  width: 50%;
+}
+.articletextrighttwo {
+  position: absolute;
+  margin-top: -284px;
+  margin-left: 646px;
+}
+.titlevideo {
+  position: absolute;
+  position: absolute;
+  margin-top: 55px;
+  margin-left: 50px;
+}
+
+.T_Card {
+  display: flex;
+  padding-left: 45px;
+  padding-right: 45px;
+  justify-content: space-between;
+  padding-top: 142px;
+  /* Располагаем карточки в ряд и размещаем между ними промежутки */
+}
+
+.O_ArticleCard {
+  width: 430px;
+  margin-bottom: 20px;
+  padding-top: 50px;
+  transition: 0.3s;
+
+  overflow: hidden;
+  /* Задаем ширину карточки, добавляем тень и скругляем углы */
+}
+
+.O_ArticleCard:hover {
+  cursor: pointer;
+  /* Немного увеличиваем тень при наведении на карточку */
+}
+
+.O_ArticleCard img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  /* Растягиваем картинку на всю ширину карточки */
+}
+
+.O_CardText {
+  padding: 10px;
+  text-align: left;
+  font-family: 'Helvetica';
+
+  /* Выравниваем текст в центре карточки и добавляем небольшой отступ */
+}
+
+.O_CardText h3 {
+  margin-bottom: 10px;
+  font-size: 36px;
+  font-family: 'BodoniC';
+  font-style: italic;
+  color: #f95b5b;
+  /* Задаем размер заголовка и отступ от него до следующего элемента */
+}
+
+.O_CardText p {
+  font-size: 1rem;
+  line-height: 1.2;
+  color: #f95b5b;
+  /* Задаем размер текста и межстрочный интервал */
+}
+.time {
+  margin-top: 15px;
+}
+
+.TitleForPodcast {
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.PodcastSmallCard1 {
+  position: absolute;
+  margin-top: -1644px;
+  margin-left: 882px;
+}
+.PodcastSmallCard2 {
+  position: absolute;
+  margin-top: -1076px;
+  margin-left: 882px;
+}
+.PodcastSmallCard3 {
+  position: absolute;
+  margin-top: -527px;
+  margin-left: 882px;
+}
+.TitleForMedia {
+  margin-left: 50px;
+  margin-top: 60px;
+}
+.T_Card1 {
+  display: flex;
+  padding-left: 45px;
+  padding-right: 45px;
+  justify-content: space-between;
+  padding-top: 20px;
+  /* Располагаем карточки в ряд и размещаем между ними промежутки */
+}
+.ArticleCardBookRight1 {
+  margin-left: 680px;
+  margin-top: -1358px;
+  position: absolute;
+  width: 50%;
+}
+.namearticle1 {
+  margin-bottom: 10px;
+  font-size: 36px;
+  font-family: 'BodoniC';
+  font-style: italic;
+  color: #f95b5b;
+  position: absolute;
+  margin-top: -852px;
+  margin-left: 730px;
+}
+.namearticle2 {
+  margin-bottom: 10px;
+  font-size: 36px;
+  font-family: 'BodoniC';
+  font-style: italic;
+  color: #f95b5b;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 87px;
+  width: 253px;
+}
