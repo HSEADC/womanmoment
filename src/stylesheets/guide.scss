@@ -86,6 +86,7 @@ i.start_text {
   padding-right: 75px;
   font-family: 'Helvetica';
   font-size: 24px;
+  color: var(--red);
 }
 
 .about_feminism_title {
@@ -98,6 +99,7 @@ i.start_text {
 b.about_feminism_title {
   font-family: 'Helvetica';
   font-size: 52px;
+  color: var(--red);
 }
 
 .about_feminism_img_div {
@@ -115,6 +117,7 @@ b.about_feminism_title {
   margin-top: 37px;
   display: flex;
   font-family: 'Helvetica';
+  color: var(--red);
 }
 
 .about_feminism_text_img {
@@ -129,6 +132,7 @@ b.about_feminism_title {
   flex-direction: column;
   justify-content: space-between;
   font-family: 'Helvetica';
+  color: var(--red);
 }
 
 .useful_articles {
@@ -176,24 +180,27 @@ b.about_feminism_title {
   font-size: 36px;
   font-style: italic;
   margin-top: 28px;
+  color: var(--red);
 }
 
 .useful_articles_text {
   font-family: Helvetica, serif;
   font-size: 24px;
   padding: 10px 50px 50px 0;
+  color: var(--red);
 }
 
 .useful_articles_time {
   font-family: Helvetica, serif;
   font-size: 18px;
+  color: var(--red);
 }
 
 .fem_directions_title {
   font-family: 'Bodoni Cyrillic', arial, serif;
   font-style: italic;
   font-size: 64px;
-  color: #f95b5b;
+  color: var(--red);
 }
 
 b.fem_directions_title {
@@ -236,6 +243,7 @@ b.fem_directions_title {
 .mini_text {
   font-family: Helvetica, serif;
   font-size: 24px;
+  color: var(--red);
 }
 
 .liberal_text_img {
