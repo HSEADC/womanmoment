@@ -260,6 +260,13 @@ module.exports = {
       filename: './styleguide.html'
       // chunks: ['page']
     }),
+    // new HtmlWebpackPlugin({
+    //   hash: true,
+    //   scriptLoading: 'blocking',
+    //   template: './src/resources.html',
+    //   filename: './resources.html'
+    //   // chunks: ['page']
+    // }),
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
