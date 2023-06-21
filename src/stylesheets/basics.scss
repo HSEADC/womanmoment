@@ -95,3 +95,242 @@ h3 {
 .breadcrumbs a:hover {
   color: var(--red);
 }
+
+.span_name {
+  font-size: 16px;
+  color: #f95b5b;
+  margin-bottom: 14px;
+}
+
+.photos_col {
+  display: flex;
+  /*gap: 30px;*/
+  justify-content: space-between;
+}
+
+.photos_col-img {
+  max-height: 755px;
+  height: 100%;
+  max-width: 660px;
+  width: 100%;
+}
+
+.img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.title_text {
+  font-family: 'Bodoni Cyrillic', arial, sans-serif;
+  color: #f95b5b;
+  font-size: 75px;
+  font-style: italic;
+  margin: 50px 0 30px 0;
+}
+
+.text-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  justify-content: space-between;
+  font-family: Helvetica, serif;
+  font-size: 24px;
+  color: #f95b5b;
+  line-height: 28px;
+
+  p {
+   color: #f95b5b; 
+  }
+}
+
+.mini-photo-col {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container_articles {
+  background-color: #FBF4EE;
+  height: 100%;
+  width: 1440px;
+  font-family: Helvetica, serif;
+      padding-left: 45px;
+    padding-right: 45px;
+}
+
+.search {
+  width: 94%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.search-box {
+  //width: fit-content;
+  height: fit-content;
+  position: relative;
+  width: 200px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  top: -5px;
+}
+
+.input-search {
+  height: 35px;
+  width: 35px;
+  text-align: end;
+  border-style: none;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  outline: none;
+  border-radius: 25px;
+  transition: all .5s ease-in-out;
+  background-color: #f95b5b;
+  padding-right: 40px;
+  color: #f95b5b;
+}
+
+.input-search::placeholder {
+  color: #f95b5b;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+.btn-search {
+  width: 50px;
+  height: 50px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  position: relative;
+  //подвигай тут чтобы выпрямить иконку лупы
+  left: 15px;
+  color: white;
+  background-color: transparent;
+  pointer-events: painted;
+}
+
+.btn-search:focus ~ .input-search {
+  width: 200px;
+  border-radius: 0;
+  background-color: transparent;
+  border-bottom: 1px solid #f95b5b;
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 1);
+  left: 0;
+}
+
+.input-search:focus {
+  width: 200px;
+  border-radius: 0;
+  background-color: transparent;
+  border-bottom: 1px solid #f95b5b;
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  left: 0;
+}
+
+.search_input {
+  width: 100%;
+  height: 56px;
+  border: 2px solid #f95b5b;
+  border-radius: 28px;
+  background-color: #efe6df;
+  font-size: 24px;
+  padding-left: 38px;
+}
+
+.search_input::placeholder {
+  font-family: Helvetica;
+  font-size: 24px;
+  color: #f95b5bd1;
+}
+
+.list {
+  width: 200px;
+  //border-radius: 20%;
+  height: fit-content;
+  background-color: white;
+  position: absolute;
+  font-size: 16px;
+  color: #f95b5bd1;
+  padding: 10px;
+}
+
+.hiddenList {
+  display: none;
+}
+
+.searchable {
+  display: none;
+}
+
+.links {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  color: #f95b5bd1;
+  text-decoration: none;
+  font-style: oblique;
+}
+
+.input-search {
+  height: 35px;
+  width: 35px;
+  text-align: end;
+  border-style: none;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  outline: none;
+  border-radius: 25px;
+  transition: all .5s ease-in-out;
+  background-color: #f95b5b;
+  padding-right: 40px;
+  color: #f95b5b;
+}
+
+.input-search::placeholder {
+  color: #f95b5b;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+.btn-search {
+  width: 50px;
+  height: 50px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  position: relative;
+  //подвигай тут чтобы выпрямить иконку лупы
+  left: 15px;
+  color: white;
+  background-color: transparent;
+  pointer-events: painted;
+}
+
+.btn-search:focus ~ .input-search {
+  width: 200px;
+  border-radius: 0;
+  background-color: transparent;
+  border-bottom: 1px solid #f95b5b;
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 1);
+  left: 0;
+}
+
+.input-search:focus {
+  width: 200px;
+  border-radius: 0;
+  background-color: transparent;
+  border-bottom: 1px solid #f95b5b;
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  left: 0;
+}
