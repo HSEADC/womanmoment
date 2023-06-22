@@ -311,7 +311,7 @@ h3 {
   border-radius: 50%;
   position: relative;
   //подвигай тут чтобы выпрямить иконку лупы
-  left: 15px;
+  right: 5px;
   color: white;
   background-color: transparent;
   pointer-events: painted;
@@ -333,4 +333,12 @@ h3 {
   border-bottom: 1px solid #f95b5b;
   transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
   left: 0;
+}
+
+.redmenu {
+  a {
+color: #f95b5b !important;
+  }
+
+
 }
