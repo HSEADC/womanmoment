@@ -1,0 +1,53 @@
+.about_us_text-section {
+  max-width: 683px;
+  width: 100%;
+  color: #f95b5b;
+  margin-left: 100px;
+}
+
+.about_us_text-section-main {
+  font-size: 64px;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+.about_us_text-section-title {
+  font-size: 45px;
+  line-height: 48px;
+  margin-bottom: 36px;
+}
+
+.about_us_text-section-all {
+  font-size: 24px;
+  line-height: 28px;
+  padding-bottom: 40px;
+
+  p {
+    color: #f95b5b;
+  }
+}
+
+.about_us_cards {
+  width: 100%;
+  padding: 78px 100px 90px 100px;
+  background-color: #f95b5b;
+  display: flex;
+  justify-content: space-between;
+  /*border-top: 101px;*/
+  border-radius: 101px;
+}
+
+.about_us_cards-photo {
+  max-height: 280px;
+  max-width: 280px;
+  height: 100%;
+  width: 100%;
+}
+
+.about_us_cards-text {
+  margin-top: 22px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: white;
+}

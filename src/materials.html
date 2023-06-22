@@ -2,6 +2,47 @@
 <html lang="ru" dir="ltr">
   <head>
     <meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width" />
+    <!-- Отключает принудительную ссылку у номера телефона на iOS -->
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="Author" content="Виола Бранус, Оля Алешина, Катя Кондратова" />
+    <meta name="Copyright" content="HSE ADC AND вуменмомент" />
+    <!-- SEO тэги для поиска -->
+    <meta
+      name="description"
+      content="Вуменмомент — это медиа для людей, которые заинтересованы в феминизме и хотят знать больше. Это большой проект, который включает в себя вспомогательный гайд для начинающих, книги, интервью, подкасты и все то, что поможет нам с вами стать лучше!"
+    />
+    <meta
+      name="keywords"
+      content="феминизм, искусство, цеткен, книги о феминизме, подкасты о феминизме, женщины, girl power, равноправие, женская эмансипация, гендерное равенство, Вуменмомент, активизм, феминистские идеи"
+    />
+    <!-- локализация сайта, для русскоязычного сайта ru_RU -->
+    <meta property="og:locale" content="ru_RU" />
+    <!-- заголовок страницы, который будет выводится в записи социальной сети -->
+    <meta property="og:title" content="Вуменмомент" />
+    <!-- описание страницы -->
+    <meta
+      property="og:description"
+      content="Вуменмомент — это медиа для людей, которые заинтересованы в феминизме и хотят знать больше. Это большой проект, который включает в себя вспомогательный гайд для начинающих, книги, интервью, подкасты и все то, что поможет нам с вами стать лучше!"
+    />
+    <!-- ссылка на изображение, которое будет публиковаться в записи -->
+    <meta property="og:image" content="/src/images/metaimage.jpg" />
+    <!-- ссылка на текущую страницу -->
+    <meta property="og:url" content="materials.html" />
+    <!-- название сайта -->
+    <meta property="og:site_name" content="Вуменмомент" />
+    <!-- Тип карты, по умолчанию используется summary -->
+    <meta name="twitter:card" content="summary" />
+    <!-- Название страницы -->
+    <meta name="twitter:title" content="Ресурсы" />
+    <!-- Описание страницы -->
+    <meta
+      name="twitter:description"
+      content="Вуменмомент — это медиа для людей, которые заинтересованы в феминизме и хотят знать больше. Это большой проект, который включает в себя вспомогательный гайд для начинающих, книги, интервью, подкасты и все то, что поможет нам с вами стать лучше"
+      !
+    />
+    <!-- Cсылка на изображение -->
+    <meta name="twitter:image" content="/src/images/metaimage.jpg" />
     <title>Интересные материалы</title>
   </head>
   <body class="resources">
@@ -9,33 +50,44 @@
       <a href="main.html" class="logo"
         ><img class="aim" src="/src/images/redlogo.svg" alt=""
       /></a>
-      <div class="justmenu">
+      <div class="justmenu redmenu">
+        <div class="">
+          <div class="search-box search_div">
+          
+            <input type="text" class="input-search search_input" placeholder="Поиск...">
+          </div>
+          <div class="list hiddenList">
+            <ul>
+            </ul>
+          </div>
+        </div>
         <a href="guide.html" class="menutext">Гайд</a>
         <a href="art.html" class="menutext">Искусство</a>
         <a href="articles.html" class="menutext">История</a>
         <a href="materials.html" class="menutext">Ресурсы</a>
-        <a href="about.html" class="menutext">О нас</a>
+        <a href="aboutus.html" class="menutext">О нас</a>
       </div>
     </div>
     <img src="/src/images/A_TitleForParagraphR.svg" class="A_TitleForParagraphR" />
    
     <div class="MaterialCard">
     <div class="ResourceCard"> 
-      <img class="ArticleCardBook"  src="/src/images/A_CardPictureBook.png" alt="ArticleCardBook" />
+      <a href="https://biblioteka-online.info/book/vtoroy-pol/?utm_referrer=https%3A%2F%2Fwww.google.com%2F" target="_blank"><img class="ArticleCardBook"  src="/src/images/A_CardPictureBook.png" alt="ArticleCardBook" /></a>
       <div class="articletext">
         <p class="namearticle"> Второй пол </p>
         <p class="description"> Симона де Бовуар </p>
       </div>
     </div>
     <div class="ResourceCard"> 
-      <img class="ArticleCardBook"  src="/src/images/image 10.png" alt="ArticleCardBook" />
+      <a href="book.html" target="_blank"><img class="ArticleCardBook"  src="/src/images/image 10.png" alt="ArticleCardBook" /></a>
       <div class="articletext">
         <p class="namearticle"> Загадка женственности </p>
         <p class="description"> Бетти Фридан </p>
       </div>
     </div>
     <div class="ResourceCard"> 
-      <img class="ArticleCardBook"  src="/src/images/image 17.png" alt="ArticleCardBook" />
+      <a href="https://www.rulit.me/books/zhenshchiny-rasa-klass-read-426945-1.html" target="_blank">
+      <img class="ArticleCardBook"  src="/src/images/image 17.png" alt="ArticleCardBook" /></a>
       <div class="articletext">
         <p class="namearticle"> Женщина, раса, класс </p>
         <p class="description"> Анджела Дэвис </p>
@@ -43,13 +95,14 @@
     </div>
   </div>
   <div class="Bigresourcecard">
-    <img class="ArticleCardBookRight"  src="/src/images/image 18.png" alt="ArticleCardBook" />
+    <a href="https://libking.ru/books/prose-/prose-contemporary/365950-uoris-diri-tsvetok-pustyni.html" target="_blank">
+    <img class="ArticleCardBookRight"  src="/src/images/image 18.png" alt="ArticleCardBook" /></a>
     <div class="articletextright">
       <p class="namearticle"> Цветок пустыни </p>
       <p class="description"> Уорис Дири  </p>
     </div>
     <div class="Bigresourcecard">
-      <img class="ArticleCardBookRightTwo"  src="/src/images/image 19.png" alt="ArticleCardBook" />
+      <a href="book2.html" target="_blank"><img class="ArticleCardBookRightTwo"  src="/src/images/image 19.png" alt="ArticleCardBook" /></a>
       <div class="articletextrighttwo">
         <p class="namearticle"> Смелая </p>
         <p class="description"> Роуз Макгоуэн </p>
@@ -60,7 +113,8 @@
 
   <div class="T_Card">
     <div class="O_ArticleCard">
-      <img src="images/Video1.png" alt="O_ArticleCard_image"/>
+      <a href="videos.html" target="_blank">
+      <img src="images/Video1.png" alt="O_ArticleCard_image"/></a>
       <div class="O_CardText">
         <h3>Феминистки поругались</h3>
         <p>
@@ -72,7 +126,8 @@
     </div>
 
     <div class="O_ArticleCard">
-      <img src="/src/images/video2.png" alt="O_ArticleCard_image" />
+      <a href="https://www.youtube.com/watch?v=3mRF0DjeZPM" target="_blank">
+      <img src="/src/images/video2.png" alt="O_ArticleCard_image" /></a>
       <div class="O_CardText">
         <h3>Феминизи для госканала</h3>
         <p>
@@ -84,7 +139,8 @@
       </div>
     </div>
 <div class="O_ArticleCard">
-      <img src="/src/images/video3.png" alt="O_ArticleCard_image" />
+  <a href="https://www.youtube.com/watch?v=aadoeDe8RW0" target="_blank">    
+  <img src="/src/images/video3.png" alt="O_ArticleCard_image" /></a>
       <div class="O_CardText">
         <h3>История феминизма</h3>
         <p>
@@ -98,34 +154,39 @@
   </div>
   <!-- <img src="images/A_TitlePodcast.png" class="TitleForPodcast" /> -->
   <div class="PodcastCard"> 
-    <img class="ArticleCardBook"  src="/src/images/A_Podcast.png" alt="ArticleCardBook" />
+    <a href="podcast2.html" target="_blank">
+    <img class="ArticleCardBook"  src="/src/images/A_Podcast.png" alt="ArticleCardBook" /></a>
     <div class="articletext">
       <p class="namearticle"> Дочь разбойника </p>
       <p class="description"> Настя Красильникова</p>
     </div>
     <div class="PodcastCard"> 
-      <img class="ArticleCardBook"  src="/src/images/2Podcast.png" alt="ArticleCardBook" />
+      <a href="podcast.html" target="_blank">
+      <img class="ArticleCardBook"  src="/src/images/2Podcast.png" alt="ArticleCardBook" /></a>
       <div class="articletext">
         <p class="namearticle"> Fem Talks </p>
         <p class="description"> Лана Узарашвили, Катерина 
           Денисова, Настя Красильникова</p>
       </div>
       <div class="PodcastSmallCard1"> 
-        <img class="ArticleCardBook"  src="/src/images/A_PodcastSmall.png" alt="ArticleCardBook" />
+        <a href="https://soundcloud.com/provalpodcast" target="_blank">
+        <img class="ArticleCardBook"  src="/src/images/A_PodcastSmall.png" alt="ArticleCardBook" /></a>
         <div class="articletext">
           <p class="namearticle"> Это провал </p>
           <p class="description"> Кристина Вазовски </p>
         </div>
       </div>
       <div class="PodcastSmallCard2"> 
-        <img class="ArticleCardBook"  src="/src/images/A_PodcastSmall2.png" alt="ArticleCardBook" />
+       <a href="https://www.litres.ru/podcast/grigoriy-tumanov/muzhchina-vy-kuda-64623071/" target="_blank">
+        <img class="ArticleCardBook"  src="/src/images/A_PodcastSmall2.png" alt="ArticleCardBook" /></a>
         <div class="articletext">
           <p class="namearticle"> Мужчина, вы куда? </p>
           <p class="description"> Григорий Туманов </p>
         </div>
       </div>
-      <div class="PodcastSmallCard3"> 
-        <img class="ArticleCardBook"  src="/src/images/A_PodcastSmall3.png" alt="ArticleCardBook" />
+      <div class="PodcastSmallCard3">
+        <a href="https://podcast.ru/1403133036" target="_blank">
+        <img class="ArticleCardBook"  src="/src/images/A_PodcastSmall3.png" alt="ArticleCardBook" /></a> 
         <div class="articletext">
           <p class="namearticle"> Русский Детройт </p>
           <p class="description"> Дарья Сова </p>
@@ -135,7 +196,8 @@
     <img src="images/A_TitleForMedia.svg" class="TitleForMedia" />
     <div class="T_Card1">
       <div class="O_ArticleCard">
-        <img src="images/Media1.png" alt="O_ArticleCard_image"/>
+       <a href="podcast.html">
+        <img src="images/Media1.png" alt="O_ArticleCard_image"/></a>
         <div class="O_CardText">
           <h3>Fem Talks</h3>
           <p>
@@ -147,7 +209,8 @@
       </div>
   
       <div class="O_ArticleCard">
-        <img src="/src/images/Media2.png" alt="O_ArticleCard_image" />
+       <a href="https://incite-national.org/media/" target="_blank">
+        <img src="/src/images/Media2.png" alt="O_ArticleCard_image" /></a>
         <div class="O_CardText">
           <h3>INCITE!</h3>
           <p>
@@ -159,7 +222,8 @@
       </div>
   
       <div class="O_ArticleCard">
-        <img src="/src/images/Media3.png" alt="O_ArticleCard_image" />
+        <a href="https://ona.org.ru/" target="_blank">
+        <img src="/src/images/Media3.png" alt="O_ArticleCard_image" /></a>
         <div class="O_CardText">
           <h3>ОНА</h3>
           <p>
@@ -173,31 +237,36 @@
     <img src="images/Activistki.png" class="titleresource">
     <div class="MaterialCard">
     <div class="ResourceCard"> 
-      <img class="ArticleCardBook"  src="/src/images/Mitroshina.png" alt="ArticleCardBook" />
+      <a href="https://dzen.ru/a/YSNc4GUQL21xTIdT" target="_blank">
+      <img class="ArticleCardBook"  src="/src/images/Mitroshina.png" alt="ArticleCardBook" /></a>
       <div class="articletext">
         <p class="namearticle"> Александра Митрошина </p>
       </div>
     </div>
     <div class="ResourceCard"> 
-      <img class="ArticleCardBook"  src="/src/images/Tsvetkova.png" alt="ArticleCardBook" />
+      <a href="https://www.kommersant.ru/doc/4704447" target="_blank">
+      <img class="ArticleCardBook"  src="/src/images/Tsvetkova.png" alt="ArticleCardBook" /></a>
       <div class="articletext">
         <p class="namearticle"> Юлия Цветкова </p>
       </div>
     </div>
     <div class="ResourceCard"> 
-      <img class="ArticleCardBook"  src="/src/images/Betty.png" alt="ArticleCardBook" />
+      <a href="activity.html" target="_blank">
+      <img class="ArticleCardBook"  src="/src/images/Betty.png" alt="ArticleCardBook" /></a>
       <div class="articletext">
         <p class="namearticle"> Бетти Фридан</p>
       </div>
 </div>
   </div>
   <div class="Bigresourcecard">
-    <img class="ArticleCardBookRight1"  src="/src/images/Kliton.png" alt="ArticleCardBook" />
+    <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B8%D0%BD%D1%82%D0%BE%D0%BD,_%D0%A5%D0%B8%D0%BB%D0%BB%D0%B0%D1%80%D0%B8" target="_blank">
+    <img class="ArticleCardBookRight1"  src="/src/images/Kliton.png" alt="ArticleCardBook" /></a>
     <div class="articletextright1">
       <p class="namearticle1"> Хиллари Клинтон </p>
     </div>
     <div class="Bigresourcecard">
-      <img class="ArticleCardBookRightTwo"  src="/src/images/Clara.png" alt="ArticleCardBook" />
+     <a href="https://www.dw.com/ru/kto-pridumal-zhenskij-prazdnik-8-marta/a-3424699" target="_blank">
+      <img class="ArticleCardBookRightTwo"  src="/src/images/Clara.png" alt="ArticleCardBook" /></a>
       <div class="articletextrighttwo">
         <p class="namearticle2"> Клара Цеткин </p>
       </div>
@@ -218,7 +287,8 @@
     </div>
 
     <div class="O_ArticleCard">
-      <img src="/src/images/People.png" alt="O_ArticleCard_image" />
+      <a href="research.html" target="_blank">
+      <img src="/src/images/People.png" alt="O_ArticleCard_image" /></a>
       <div class="O_CardText">
         <h3>Человек — мужчина</h3>
         <p>
@@ -230,7 +300,8 @@
     </div>
 
     <div class="O_ArticleCard">
-      <img src="/src/images/Gender.png" alt="O_ArticleCard_image" />
+     <a href="research2.html" target="_blank">
+      <img src="/src/images/Gender.png" alt="O_ArticleCard_image" /></a>
       <div class="O_CardText">
         <h3>Гендерные исследования</h3>
         <p>

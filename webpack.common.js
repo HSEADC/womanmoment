@@ -210,6 +210,69 @@ module.exports = {
       filename: './research2.html'
       // chunks: ['page']
     }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/sufragette.html',
+      filename: './sufragette.html'
+      // chunks: ['page']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/sherman.html',
+      filename: './sherman.html'
+      // chunks: ['page']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/aboutus.html',
+      filename: './aboutus.html'
+      // chunks: ['page']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/sheeman.html',
+      filename: './sheeman.html'
+      // chunks: ['page']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/revolution.html',
+      filename: './revolution.html'
+      // chunks: ['page']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/kusama.html',
+      filename: './kusama.html'
+      // chunks: ['page']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/art-feminism.html',
+      filename: './art-feminism.html'
+      // chunks: ['page']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/ana-mendieta.html',
+      filename: './ana-mendieta.html'
+      // chunks: ['page']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/adams.html',
+      filename: './adams.html'
+      // chunks: ['page']
+    }),
     //Отдельные статьи и тд
     new HtmlWebpackPlugin({
       hash: true,
@@ -260,6 +323,13 @@ module.exports = {
       filename: './styleguide.html'
       // chunks: ['page']
     }),
+    // new HtmlWebpackPlugin({
+    //   hash: true,
+    //   scriptLoading: 'blocking',
+    //   template: './src/resources.html',
+    //   filename: './resources.html'
+    //   // chunks: ['page']
+    // }),
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
